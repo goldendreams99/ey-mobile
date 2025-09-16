@@ -64,8 +64,8 @@ dependencies:
 
   # [ Forked VENDORS ]
   fluro: 2.0.5
-  syncfusion_flutter_signaturepad: ^25.2.7
-  syncfusion_flutter_pdf: ^25.2.7
+  syncfusion_flutter_signaturepad: ^26.1.38
+  syncfusion_flutter_pdf: ^26.1.38
   flutter_pdfview: ^1.4.1+1
   pin_input_text_field: ^4.5.2
   lottie: ^3.0.0
