@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "428872195752",
+    "firebase_url": "https://employ-660d9.firebaseio.com",
+    "project_id": "employ-660d9",
+    "storage_bucket": "employ-660d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428872195752:android:f299eeb4836942a6",
+        "android_client_info": {
+          "package_name": "com.tangerine.employ.one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428872195752-amcllvvc04mm0p48ie017nkqmt60em8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tangerine.employ.one",
+            "certificate_hash": "12438101dd39bb8fd3df4c24c4b06cb6752ded9b"
+          }
+        },
+        {
+          "client_id": "428872195752-qtakn3t20r1pprkfrv7eqjfkved7s6c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3JyxUZfXV2pl79SRhPkWOvan_UcMCozQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428872195752-qtakn3t20r1pprkfrv7eqjfkved7s6c1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "428872195752-v23rqtoh43uf6mcbfkl9i49ipncg9687.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tangerine.employ.one",
+                "app_store_id": "1440474903"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

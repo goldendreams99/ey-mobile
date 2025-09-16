@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "352389294786",
+    "firebase_url": "https://employ-6e9e6.firebaseio.com",
+    "project_id": "employ-6e9e6",
+    "storage_bucket": "employ-6e9e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352389294786:android:29072032a130d8c7",
+        "android_client_info": {
+          "package_name": "com.tangerine.employ.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352389294786-ddgfosj24kfuhltau39dheme0jddrrsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRzWg3t0usytVwx61wBZFiqRjc4UvrCU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352389294786-cf9muatihqhtt8ts62kaq31fhqe82tcc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "352389294786-ro1n4tj88d3frhrthjr20msbil76ul8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tangerine.employ.demo",
+                "app_store_id": "1442942175"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352389294786:android:f299eeb4836942a6",
+        "android_client_info": {
+          "package_name": "com.tangerine.employ.one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352389294786-0pajqu5mi8v32m31ffumqths5v8bl15m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tangerine.employ.one",
+            "certificate_hash": "25d896eff080a4d87535e42f089c242319032ae9"
+          }
+        },
+        {
+          "client_id": "352389294786-ddgfosj24kfuhltau39dheme0jddrrsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRzWg3t0usytVwx61wBZFiqRjc4UvrCU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352389294786-cf9muatihqhtt8ts62kaq31fhqe82tcc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "352389294786-ro1n4tj88d3frhrthjr20msbil76ul8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tangerine.employ.demo",
+                "app_store_id": "1442942175"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352389294786:android:82161784fc8c2a4d",
+        "android_client_info": {
+          "package_name": "com.tangerine.employ.one.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352389294786-6jo402ckj1e5c5a1t0orgkifugs0j9d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tangerine.employ.one.demo",
+            "certificate_hash": "25d896eff080a4d87535e42f089c242319032ae9"
+          }
+        },
+        {
+          "client_id": "352389294786-ddgfosj24kfuhltau39dheme0jddrrsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRzWg3t0usytVwx61wBZFiqRjc4UvrCU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352389294786-cf9muatihqhtt8ts62kaq31fhqe82tcc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "352389294786-ro1n4tj88d3frhrthjr20msbil76ul8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tangerine.employ.demo",
+                "app_store_id": "1442942175"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

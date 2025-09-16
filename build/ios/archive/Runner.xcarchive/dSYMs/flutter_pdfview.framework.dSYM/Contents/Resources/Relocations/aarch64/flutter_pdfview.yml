@@ -1,0 +1,44 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fulldev/Library/Developer/Xcode/DerivedData/Runner-bbynqzeazonrbmezehexwjqykqzb/Build/Intermediates.noindex/ArchiveIntermediates/production/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/flutter_pdfview.framework/flutter_pdfview'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x4D96, size: 0x8, addend: 0x0, symName: _flutter_pdfviewVersionString, symObjAddr: 0x0, symBinAddr: 0xA4E8, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x4DCA, size: 0x8, addend: 0x0, symName: _flutter_pdfviewVersionNumber, symObjAddr: 0x30, symBinAddr: 0xA518, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x4E06, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewFactory initWithMessenger:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x78 }
+  - { offsetInCU: 0x1C0, offset: 0x4F9F, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewFactory initWithMessenger:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x78 }
+  - { offsetInCU: 0x203, offset: 0x4FE2, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewFactory createArgsCodec]', symObjAddr: 0x78, symBinAddr: 0x8078, symSize: 0xC }
+  - { offsetInCU: 0x233, offset: 0x5012, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewFactory createWithFrame:viewIdentifier:arguments:]', symObjAddr: 0x84, symBinAddr: 0x8084, symSize: 0x94 }
+  - { offsetInCU: 0x29F, offset: 0x507E, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewFactory .cxx_destruct]', symObjAddr: 0x118, symBinAddr: 0x8118, symSize: 0xC }
+  - { offsetInCU: 0x2CF, offset: 0x50AE, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewController initWithFrame:viewIdentifier:arguments:binaryMessenger:]', symObjAddr: 0x124, symBinAddr: 0x8124, symSize: 0x2E4 }
+  - { offsetInCU: 0x3E0, offset: 0x51BF, size: 0x8, addend: 0x0, symName: '___79-[FLTPDFViewController initWithFrame:viewIdentifier:arguments:binaryMessenger:]_block_invoke', symObjAddr: 0x408, symBinAddr: 0x8408, symSize: 0x6C }
+  - { offsetInCU: 0x436, offset: 0x5215, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x474, symBinAddr: 0x8474, symSize: 0xC }
+  - { offsetInCU: 0x45C, offset: 0x523B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x480, symBinAddr: 0x8480, symSize: 0x8 }
+  - { offsetInCU: 0x479, offset: 0x5258, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewController onMethodCall:result:]', symObjAddr: 0x488, symBinAddr: 0x8488, symSize: 0x17C }
+  - { offsetInCU: 0x4D9, offset: 0x52B8, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewController invokeChannelMethod:arguments:]', symObjAddr: 0x604, symBinAddr: 0x8604, symSize: 0x8 }
+  - { offsetInCU: 0x523, offset: 0x5302, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewController view]', symObjAddr: 0x60C, symBinAddr: 0x860C, symSize: 0x8 }
+  - { offsetInCU: 0x557, offset: 0x5336, size: 0x8, addend: 0x0, symName: '-[FLTPDFViewController .cxx_destruct]', symObjAddr: 0x614, symBinAddr: 0x8614, symSize: 0x30 }
+  - { offsetInCU: 0x587, offset: 0x5366, size: 0x8, addend: 0x0, symName: '-[FLTPDFView initWithFrame:arguments:controller:]', symObjAddr: 0x644, symBinAddr: 0x8644, symSize: 0x6D0 }
+  - { offsetInCU: 0x7B1, offset: 0x5590, size: 0x8, addend: 0x0, symName: '___49-[FLTPDFView initWithFrame:arguments:controller:]_block_invoke', symObjAddr: 0xD14, symBinAddr: 0x8D14, symSize: 0x70 }
+  - { offsetInCU: 0x7F8, offset: 0x55D7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0xD84, symBinAddr: 0x8D84, symSize: 0x30 }
+  - { offsetInCU: 0x81E, offset: 0x55FD, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0xDB4, symBinAddr: 0x8DB4, symSize: 0x28 }
+  - { offsetInCU: 0x83B, offset: 0x561A, size: 0x8, addend: 0x0, symName: '-[FLTPDFView layoutSubviews]', symObjAddr: 0xDDC, symBinAddr: 0x8DDC, symSize: 0xCC }
+  - { offsetInCU: 0x86B, offset: 0x564A, size: 0x8, addend: 0x0, symName: '-[FLTPDFView view]', symObjAddr: 0xEA8, symBinAddr: 0x8EA8, symSize: 0x10 }
+  - { offsetInCU: 0x89F, offset: 0x567E, size: 0x8, addend: 0x0, symName: '-[FLTPDFView getPageCount:result:]', symObjAddr: 0xEB8, symBinAddr: 0x8EB8, symSize: 0xA4 }
+  - { offsetInCU: 0x8FB, offset: 0x56DA, size: 0x8, addend: 0x0, symName: '-[FLTPDFView getCurrentPage:result:]', symObjAddr: 0xF5C, symBinAddr: 0x8F5C, symSize: 0xD0 }
+  - { offsetInCU: 0x957, offset: 0x5736, size: 0x8, addend: 0x0, symName: '-[FLTPDFView setPage:result:]', symObjAddr: 0x102C, symBinAddr: 0x902C, symSize: 0x110 }
+  - { offsetInCU: 0x9DB, offset: 0x57BA, size: 0x8, addend: 0x0, symName: '-[FLTPDFView onUpdateSettings:result:]', symObjAddr: 0x113C, symBinAddr: 0x913C, symSize: 0x10 }
+  - { offsetInCU: 0xA39, offset: 0x5818, size: 0x8, addend: 0x0, symName: '-[FLTPDFView handlePageChanged:]', symObjAddr: 0x114C, symBinAddr: 0x914C, symSize: 0x198 }
+  - { offsetInCU: 0xA74, offset: 0x5853, size: 0x8, addend: 0x0, symName: '-[FLTPDFView handleRenderCompleted:]', symObjAddr: 0x12E4, symBinAddr: 0x92E4, symSize: 0xD4 }
+  - { offsetInCU: 0xAB3, offset: 0x5892, size: 0x8, addend: 0x0, symName: '-[FLTPDFView PDFViewWillClickOnLink:withURL:]', symObjAddr: 0x13B8, symBinAddr: 0x93B8, symSize: 0xC8 }
+  - { offsetInCU: 0xB1A, offset: 0x58F9, size: 0x8, addend: 0x0, symName: '___45-[FLTPDFView PDFViewWillClickOnLink:withURL:]_block_invoke', symObjAddr: 0x1480, symBinAddr: 0x9480, symSize: 0x2C }
+  - { offsetInCU: 0xB51, offset: 0x5930, size: 0x8, addend: 0x0, symName: '-[FLTPDFView onDoubleTap:]', symObjAddr: 0x14AC, symBinAddr: 0x94AC, symSize: 0x1BC }
+  - { offsetInCU: 0xBF0, offset: 0x59CF, size: 0x8, addend: 0x0, symName: '___26-[FLTPDFView onDoubleTap:]_block_invoke', symObjAddr: 0x1668, symBinAddr: 0x9668, symSize: 0x48 }
+  - { offsetInCU: 0xC3F, offset: 0x5A1E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x16B0, symBinAddr: 0x96B0, symSize: 0x28 }
+  - { offsetInCU: 0xC65, offset: 0x5A44, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x16D8, symBinAddr: 0x96D8, symSize: 0x28 }
+  - { offsetInCU: 0xC82, offset: 0x5A61, size: 0x8, addend: 0x0, symName: '___26-[FLTPDFView onDoubleTap:]_block_invoke.165', symObjAddr: 0x1700, symBinAddr: 0x9700, symSize: 0x38 }
+  - { offsetInCU: 0xCC1, offset: 0x5AA0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1738, symBinAddr: 0x9738, symSize: 0x8 }
+  - { offsetInCU: 0xCE5, offset: 0x5AC4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x1740, symBinAddr: 0x9740, symSize: 0x8 }
+  - { offsetInCU: 0xD02, offset: 0x5AE1, size: 0x8, addend: 0x0, symName: '-[FLTPDFView .cxx_destruct]', symObjAddr: 0x1748, symBinAddr: 0x9748, symSize: 0x8C }
+  - { offsetInCU: 0x27, offset: 0x5E5E, size: 0x8, addend: 0x0, symName: '+[FLTPDFViewFlutterPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x97D4, symSize: 0x8C }
+  - { offsetInCU: 0x49, offset: 0x5E80, size: 0x8, addend: 0x0, symName: '+[FLTPDFViewFlutterPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x97D4, symSize: 0x8C }
+...

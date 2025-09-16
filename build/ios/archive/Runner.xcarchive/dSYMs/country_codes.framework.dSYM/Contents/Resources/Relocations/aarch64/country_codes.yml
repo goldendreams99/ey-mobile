@@ -1,0 +1,33 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fulldev/Library/Developer/Xcode/DerivedData/Runner-bbynqzeazonrbmezehexwjqykqzb/Build/Intermediates.noindex/ArchiveIntermediates/production/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/country_codes.framework/country_codes'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5A762, size: 0x8, addend: 0x0, symName: _country_codesVersionString, symObjAddr: 0x0, symBinAddr: 0xA890, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5A797, size: 0x8, addend: 0x0, symName: _country_codesVersionNumber, symObjAddr: 0x30, symBinAddr: 0xA8C0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5A7D4, size: 0x8, addend: 0x0, symName: '+[CountryCodesPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
+  - { offsetInCU: 0x91, offset: 0x5A83E, size: 0x8, addend: 0x0, symName: '+[CountryCodesPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x5A8D2, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginC8register4withySo07FlutterF9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x800C, symSize: 0x4 }
+  - { offsetInCU: 0x4B, offset: 0x5A8F6, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginC8register4withySo07FlutterF9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x800C, symSize: 0x4 }
+  - { offsetInCU: 0x5F, offset: 0x5A90A, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginCACycfC', symObjAddr: 0x4, symBinAddr: 0x8010, symSize: 0x20 }
+  - { offsetInCU: 0x82, offset: 0x5A92D, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginC8register4withySo07FlutterF9Registrar_p_tFZTo', symObjAddr: 0x24, symBinAddr: 0x8030, symSize: 0x30 }
+  - { offsetInCU: 0xC3, offset: 0x5A96E, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x54, symBinAddr: 0x8060, symSize: 0x440 }
+  - { offsetInCU: 0x1F4, offset: 0x5AA9F, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x494, symBinAddr: 0x84A0, symSize: 0x78 }
+  - { offsetInCU: 0x226, offset: 0x5AAD1, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginCACycfc', symObjAddr: 0x50C, symBinAddr: 0x8518, symSize: 0x30 }
+  - { offsetInCU: 0x261, offset: 0x5AB0C, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginCACycfcTo', symObjAddr: 0x53C, symBinAddr: 0x8548, symSize: 0x3C }
+  - { offsetInCU: 0x29C, offset: 0x5AB47, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginCfD', symObjAddr: 0x578, symBinAddr: 0x8584, symSize: 0x30 }
+  - { offsetInCU: 0x2DA, offset: 0x5AB85, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginC8register4withySo07FlutterF9Registrar_p_tFZTf4nd_n', symObjAddr: 0xC60, symBinAddr: 0x8C6C, symSize: 0xDC }
+  - { offsetInCU: 0x36D, offset: 0x5AC18, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginC012getLocalizedD5Names9localeTagSDyS2SGSSSg_tFTf4nd_n', symObjAddr: 0xE40, symBinAddr: 0x8E4C, symSize: 0x354 }
+  - { offsetInCU: 0x5DE, offset: 0x5AE89, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x11B4, symBinAddr: 0x91C0, symSize: 0x584 }
+  - { offsetInCU: 0x73D, offset: 0x5AFE8, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x5A8, symBinAddr: 0x85B4, symSize: 0x64 }
+  - { offsetInCU: 0x78A, offset: 0x5B035, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x60C, symBinAddr: 0x8618, symSize: 0xE0 }
+  - { offsetInCU: 0x7F5, offset: 0x5B0A0, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_SSTg5', symObjAddr: 0x6EC, symBinAddr: 0x86F8, symSize: 0x1C8 }
+  - { offsetInCU: 0x87B, offset: 0x5B126, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SSTg5', symObjAddr: 0x8B4, symBinAddr: 0x88C0, symSize: 0x3AC }
+  - { offsetInCU: 0x960, offset: 0x5B20B, size: 0x8, addend: 0x0, symName: '_$sSo8NSObjectCMa', symObjAddr: 0xD3C, symBinAddr: 0x8D48, symSize: 0x3C }
+  - { offsetInCU: 0x974, offset: 0x5B21F, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0xD78, symBinAddr: 0x8D84, symSize: 0x40 }
+  - { offsetInCU: 0x988, offset: 0x5B233, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0xDB8, symBinAddr: 0x8DC4, symSize: 0x40 }
+  - { offsetInCU: 0x99C, offset: 0x5B247, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0xDF8, symBinAddr: 0x8E04, symSize: 0x48 }
+  - { offsetInCU: 0xA60, offset: 0x5B30B, size: 0x8, addend: 0x0, symName: '_$s13country_codes23SwiftCountryCodesPluginCMa', symObjAddr: 0x1194, symBinAddr: 0x91A0, symSize: 0x20 }
+  - { offsetInCU: 0xA7F, offset: 0x5B32A, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x1738, symBinAddr: 0x9744, symSize: 0x48 }
+  - { offsetInCU: 0xA93, offset: 0x5B33E, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x1780, symBinAddr: 0x978C, symSize: 0x24 }
+  - { offsetInCU: 0xAA7, offset: 0x5B352, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x17A4, symBinAddr: 0x97B0, symSize: 0x20 }
+...

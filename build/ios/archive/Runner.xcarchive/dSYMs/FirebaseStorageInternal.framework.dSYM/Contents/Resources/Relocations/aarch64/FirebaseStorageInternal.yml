@@ -1,0 +1,463 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fulldev/Library/Developer/Xcode/DerivedData/Runner-bbynqzeazonrbmezehexwjqykqzb/Build/Intermediates.noindex/ArchiveIntermediates/production/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/FirebaseStorageInternal.framework/FirebaseStorageInternal'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x265C3, size: 0x8, addend: 0x0, symName: _FirebaseStorageInternalVersionString, symObjAddr: 0x0, symBinAddr: 0x14330, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x265F7, size: 0x8, addend: 0x0, symName: _FirebaseStorageInternalVersionNumber, symObjAddr: 0x38, symBinAddr: 0x14368, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x26633, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorage initialize]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x28 }
+  - { offsetInCU: 0x34, offset: 0x26640, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorage initialize]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x28 }
+  - { offsetInCU: 0x59, offset: 0x26665, size: 0x8, addend: 0x0, symName: _initialize.onceToken, symObjAddr: 0x9238, symBinAddr: 0x23AF8, symSize: 0x0 }
+  - { offsetInCU: 0xC5, offset: 0x266D1, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorage bucketForApp:]', symObjAddr: 0x308, symBinAddr: 0x4308, symSize: 0x160 }
+  - { offsetInCU: 0x197, offset: 0x267A3, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage referenceForURL:]', symObjAddr: 0xC5C, symBinAddr: 0x4C5C, symSize: 0x120 }
+  - { offsetInCU: 0x22E, offset: 0x2683A, size: 0x8, addend: 0x0, symName: __fetcherServiceMap, symObjAddr: 0x9248, symBinAddr: 0x23B08, symSize: 0x0 }
+  - { offsetInCU: 0x248, offset: 0x26854, size: 0x8, addend: 0x0, symName: __retryWhenOffline, symObjAddr: 0x9240, symBinAddr: 0x23B00, symSize: 0x0 }
+  - { offsetInCU: 0x530, offset: 0x26B3C, size: 0x8, addend: 0x0, symName: '___28+[FIRIMPLStorage initialize]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x4028, symSize: 0x44 }
+  - { offsetInCU: 0x555, offset: 0x26B61, size: 0x8, addend: 0x0, symName: '___28+[FIRIMPLStorage initialize]_block_invoke_2', symObjAddr: 0x6C, symBinAddr: 0x406C, symSize: 0x60 }
+  - { offsetInCU: 0x5DC, offset: 0x26BE8, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorage fetcherServiceForApp:bucket:auth:appCheck:]', symObjAddr: 0xCC, symBinAddr: 0x40CC, symSize: 0x230 }
+  - { offsetInCU: 0x683, offset: 0x26C8F, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorage setGTMSessionFetcherLoggingEnabled:]', symObjAddr: 0x2FC, symBinAddr: 0x42FC, symSize: 0xC }
+  - { offsetInCU: 0x6C2, offset: 0x26CCE, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorage bucketForApp:URL:]', symObjAddr: 0x468, symBinAddr: 0x4468, symSize: 0x178 }
+  - { offsetInCU: 0x74F, offset: 0x26D5B, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage initWithApp:bucket:auth:appCheck:]', symObjAddr: 0x5E0, symBinAddr: 0x45E0, symSize: 0x1DC }
+  - { offsetInCU: 0x7F5, offset: 0x26E01, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage init]', symObjAddr: 0x7BC, symBinAddr: 0x47BC, symSize: 0x18 }
+  - { offsetInCU: 0x829, offset: 0x26E35, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage copyWithZone:]', symObjAddr: 0x7D4, symBinAddr: 0x47D4, symSize: 0x6C }
+  - { offsetInCU: 0x87B, offset: 0x26E87, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage isEqual:]', symObjAddr: 0x840, symBinAddr: 0x4840, symSize: 0x78 }
+  - { offsetInCU: 0x8CB, offset: 0x26ED7, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage isEqualToFIRStorage:]', symObjAddr: 0x8B8, symBinAddr: 0x48B8, symSize: 0xA0 }
+  - { offsetInCU: 0x91B, offset: 0x26F27, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage hash]', symObjAddr: 0x958, symBinAddr: 0x4958, symSize: 0x50 }
+  - { offsetInCU: 0x960, offset: 0x26F6C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage description]', symObjAddr: 0x9A8, symBinAddr: 0x49A8, symSize: 0x4C }
+  - { offsetInCU: 0x994, offset: 0x26FA0, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setMaxUploadRetryTime:]', symObjAddr: 0x9F4, symBinAddr: 0x49F4, symSize: 0x68 }
+  - { offsetInCU: 0x9D4, offset: 0x26FE0, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage maxDownloadRetryTime]', symObjAddr: 0xA5C, symBinAddr: 0x4A5C, symSize: 0x44 }
+  - { offsetInCU: 0xA09, offset: 0x27015, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setMaxDownloadRetryTime:]', symObjAddr: 0xAA0, symBinAddr: 0x4AA0, symSize: 0x68 }
+  - { offsetInCU: 0xA49, offset: 0x27055, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage maxUploadRetryTime]', symObjAddr: 0xB08, symBinAddr: 0x4B08, symSize: 0x44 }
+  - { offsetInCU: 0xA7E, offset: 0x2708A, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setMaxOperationRetryTime:]', symObjAddr: 0xB4C, symBinAddr: 0x4B4C, symSize: 0x68 }
+  - { offsetInCU: 0xABE, offset: 0x270CA, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage maxOperationRetryTime]', symObjAddr: 0xBB4, symBinAddr: 0x4BB4, symSize: 0x44 }
+  - { offsetInCU: 0xAF3, offset: 0x270FF, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage reference]', symObjAddr: 0xBF8, symBinAddr: 0x4BF8, symSize: 0x64 }
+  - { offsetInCU: 0xB38, offset: 0x27144, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage referenceWithPath:]', symObjAddr: 0xD7C, symBinAddr: 0x4D7C, symSize: 0x6C }
+  - { offsetInCU: 0xB8D, offset: 0x27199, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage callbackQueue]', symObjAddr: 0xDE8, symBinAddr: 0x4DE8, symSize: 0x24 }
+  - { offsetInCU: 0xBC3, offset: 0x271CF, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setCallbackQueue:]', symObjAddr: 0xE0C, symBinAddr: 0x4E0C, symSize: 0x40 }
+  - { offsetInCU: 0xC06, offset: 0x27212, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage useEmulatorWithHost:port:]', symObjAddr: 0xE4C, symBinAddr: 0x4E4C, symSize: 0x10C }
+  - { offsetInCU: 0xC59, offset: 0x27265, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorage enableBackgroundTasks:]', symObjAddr: 0xF58, symBinAddr: 0x4F58, symSize: 0x20 }
+  - { offsetInCU: 0xC94, offset: 0x272A0, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage uploadTasks]', symObjAddr: 0xF78, symBinAddr: 0x4F78, symSize: 0x34 }
+  - { offsetInCU: 0xCC5, offset: 0x272D1, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage downloadTasks]', symObjAddr: 0xFAC, symBinAddr: 0x4FAC, symSize: 0x34 }
+  - { offsetInCU: 0xCF6, offset: 0x27302, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage ensureConfigured]', symObjAddr: 0xFE0, symBinAddr: 0x4FE0, symSize: 0x80 }
+  - { offsetInCU: 0xD28, offset: 0x27334, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage app]', symObjAddr: 0x1060, symBinAddr: 0x5060, symSize: 0x8 }
+  - { offsetInCU: 0xD5D, offset: 0x27369, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setApp:]', symObjAddr: 0x1068, symBinAddr: 0x5068, symSize: 0xC }
+  - { offsetInCU: 0xD9C, offset: 0x273A8, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage fetcherServiceForApp]', symObjAddr: 0x1074, symBinAddr: 0x5074, symSize: 0x8 }
+  - { offsetInCU: 0xDD1, offset: 0x273DD, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setFetcherServiceForApp:]', symObjAddr: 0x107C, symBinAddr: 0x507C, symSize: 0xC }
+  - { offsetInCU: 0xE10, offset: 0x2741C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage dispatchQueue]', symObjAddr: 0x1088, symBinAddr: 0x5088, symSize: 0x8 }
+  - { offsetInCU: 0xE45, offset: 0x27451, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage storageBucket]', symObjAddr: 0x1090, symBinAddr: 0x5090, symSize: 0x8 }
+  - { offsetInCU: 0xE7A, offset: 0x27486, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setStorageBucket:]', symObjAddr: 0x1098, symBinAddr: 0x5098, symSize: 0xC }
+  - { offsetInCU: 0xEB9, offset: 0x274C5, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage scheme]', symObjAddr: 0x10A4, symBinAddr: 0x50A4, symSize: 0x8 }
+  - { offsetInCU: 0xEEE, offset: 0x274FA, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setScheme:]', symObjAddr: 0x10AC, symBinAddr: 0x50AC, symSize: 0xC }
+  - { offsetInCU: 0xF2D, offset: 0x27539, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage host]', symObjAddr: 0x10B8, symBinAddr: 0x50B8, symSize: 0x8 }
+  - { offsetInCU: 0xF62, offset: 0x2756E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setHost:]', symObjAddr: 0x10C0, symBinAddr: 0x50C0, symSize: 0xC }
+  - { offsetInCU: 0xFA1, offset: 0x275AD, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage port]', symObjAddr: 0x10CC, symBinAddr: 0x50CC, symSize: 0x8 }
+  - { offsetInCU: 0xFD6, offset: 0x275E2, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setPort:]', symObjAddr: 0x10D4, symBinAddr: 0x50D4, symSize: 0xC }
+  - { offsetInCU: 0x1015, offset: 0x27621, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage maxUploadRetryInterval]', symObjAddr: 0x10E0, symBinAddr: 0x50E0, symSize: 0x8 }
+  - { offsetInCU: 0x1049, offset: 0x27655, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setMaxUploadRetryInterval:]', symObjAddr: 0x10E8, symBinAddr: 0x50E8, symSize: 0x8 }
+  - { offsetInCU: 0x1086, offset: 0x27692, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage maxDownloadRetryInterval]', symObjAddr: 0x10F0, symBinAddr: 0x50F0, symSize: 0x8 }
+  - { offsetInCU: 0x10BA, offset: 0x276C6, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setMaxDownloadRetryInterval:]', symObjAddr: 0x10F8, symBinAddr: 0x50F8, symSize: 0x8 }
+  - { offsetInCU: 0x10F7, offset: 0x27703, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage maxOperationRetryInterval]', symObjAddr: 0x1100, symBinAddr: 0x5100, symSize: 0x8 }
+  - { offsetInCU: 0x112B, offset: 0x27737, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage setMaxOperationRetryInterval:]', symObjAddr: 0x1108, symBinAddr: 0x5108, symSize: 0x8 }
+  - { offsetInCU: 0x1168, offset: 0x27774, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorage .cxx_destruct]', symObjAddr: 0x1110, symBinAddr: 0x5110, symSize: 0x84 }
+  - { offsetInCU: 0x35, offset: 0x27975, size: 0x8, addend: 0x0, symName: _kGCSScheme, symObjAddr: 0x718, symBinAddr: 0x1C260, symSize: 0x0 }
+  - { offsetInCU: 0x54, offset: 0x27994, size: 0x8, addend: 0x0, symName: _kGCSHost, symObjAddr: 0x720, symBinAddr: 0x1C268, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x279A9, size: 0x8, addend: 0x0, symName: _kGCSUploadPath, symObjAddr: 0x728, symBinAddr: 0x1C270, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x279BE, size: 0x8, addend: 0x0, symName: _kGCSStorageVersionPath, symObjAddr: 0x730, symBinAddr: 0x1C278, symSize: 0x0 }
+  - { offsetInCU: 0x93, offset: 0x279D3, size: 0x8, addend: 0x0, symName: _kGCSBucketPathFormat, symObjAddr: 0x738, symBinAddr: 0x1C280, symSize: 0x0 }
+  - { offsetInCU: 0xA8, offset: 0x279E8, size: 0x8, addend: 0x0, symName: _kGCSObjectPathFormat, symObjAddr: 0x740, symBinAddr: 0x1C288, symSize: 0x0 }
+  - { offsetInCU: 0xBD, offset: 0x279FD, size: 0x8, addend: 0x0, symName: _kFIRStorageScheme, symObjAddr: 0x748, symBinAddr: 0x1C290, symSize: 0x0 }
+  - { offsetInCU: 0xD2, offset: 0x27A12, size: 0x8, addend: 0x0, symName: _kFIRStorageHost, symObjAddr: 0x750, symBinAddr: 0x1C298, symSize: 0x0 }
+  - { offsetInCU: 0xE7, offset: 0x27A27, size: 0x8, addend: 0x0, symName: _kFIRStoragePort, symObjAddr: 0x888, symBinAddr: 0x14378, symSize: 0x0 }
+  - { offsetInCU: 0x108, offset: 0x27A48, size: 0x8, addend: 0x0, symName: _kFIRStorageVersionPath, symObjAddr: 0x758, symBinAddr: 0x1C2A0, symSize: 0x0 }
+  - { offsetInCU: 0x11D, offset: 0x27A5D, size: 0x8, addend: 0x0, symName: _kFIRStorageBucketPathFormat, symObjAddr: 0x760, symBinAddr: 0x1C2A8, symSize: 0x0 }
+  - { offsetInCU: 0x132, offset: 0x27A72, size: 0x8, addend: 0x0, symName: _kFIRStorageObjectPathFormat, symObjAddr: 0x768, symBinAddr: 0x1C2B0, symSize: 0x0 }
+  - { offsetInCU: 0x147, offset: 0x27A87, size: 0x8, addend: 0x0, symName: _kFIRStorageFullPathFormat, symObjAddr: 0x770, symBinAddr: 0x1C2B8, symSize: 0x0 }
+  - { offsetInCU: 0x15C, offset: 0x27A9C, size: 0x8, addend: 0x0, symName: _kFIRStorageAuthTokenFormat, symObjAddr: 0x778, symBinAddr: 0x1C2C0, symSize: 0x0 }
+  - { offsetInCU: 0x171, offset: 0x27AB1, size: 0x8, addend: 0x0, symName: _kFIRStorageDefaultBucketFormat, symObjAddr: 0x780, symBinAddr: 0x1C2C8, symSize: 0x0 }
+  - { offsetInCU: 0x186, offset: 0x27AC6, size: 0x8, addend: 0x0, symName: _kFIRStorageResponseErrorDomain, symObjAddr: 0x788, symBinAddr: 0x1C2D0, symSize: 0x0 }
+  - { offsetInCU: 0x19B, offset: 0x27ADB, size: 0x8, addend: 0x0, symName: _kFIRStorageResponseErrorCode, symObjAddr: 0x790, symBinAddr: 0x1C2D8, symSize: 0x0 }
+  - { offsetInCU: 0x1B0, offset: 0x27AF0, size: 0x8, addend: 0x0, symName: _kFIRStorageResponseBody, symObjAddr: 0x798, symBinAddr: 0x1C2E0, symSize: 0x0 }
+  - { offsetInCU: 0x1C5, offset: 0x27B05, size: 0x8, addend: 0x0, symName: _FIRStorageErrorDomain, symObjAddr: 0x7A0, symBinAddr: 0x1C2E8, symSize: 0x0 }
+  - { offsetInCU: 0x1DA, offset: 0x27B1A, size: 0x8, addend: 0x0, symName: _FIRStorageErrorDomainInternal, symObjAddr: 0x7A8, symBinAddr: 0x1C2F0, symSize: 0x0 }
+  - { offsetInCU: 0x1EF, offset: 0x27B2F, size: 0x8, addend: 0x0, symName: _kFIRStorageInvalidDataFormat, symObjAddr: 0x7B0, symBinAddr: 0x1C2F8, symSize: 0x0 }
+  - { offsetInCU: 0x204, offset: 0x27B44, size: 0x8, addend: 0x0, symName: _kFIRStorageInvalidObserverStatus, symObjAddr: 0x7B8, symBinAddr: 0x1C300, symSize: 0x0 }
+  - { offsetInCU: 0x219, offset: 0x27B59, size: 0x8, addend: 0x0, symName: _kFIRStorageListPrefixes, symObjAddr: 0x7C0, symBinAddr: 0x1C308, symSize: 0x0 }
+  - { offsetInCU: 0x22E, offset: 0x27B6E, size: 0x8, addend: 0x0, symName: _kFIRStorageListItems, symObjAddr: 0x7C8, symBinAddr: 0x1C310, symSize: 0x0 }
+  - { offsetInCU: 0x243, offset: 0x27B83, size: 0x8, addend: 0x0, symName: _kFIRStorageListItemName, symObjAddr: 0x7D0, symBinAddr: 0x1C318, symSize: 0x0 }
+  - { offsetInCU: 0x258, offset: 0x27B98, size: 0x8, addend: 0x0, symName: _kFIRStorageListPageToken, symObjAddr: 0x7D8, symBinAddr: 0x1C320, symSize: 0x0 }
+  - { offsetInCU: 0x26D, offset: 0x27BAD, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataBucket, symObjAddr: 0x7E0, symBinAddr: 0x1C328, symSize: 0x0 }
+  - { offsetInCU: 0x282, offset: 0x27BC2, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataCacheControl, symObjAddr: 0x7E8, symBinAddr: 0x1C330, symSize: 0x0 }
+  - { offsetInCU: 0x297, offset: 0x27BD7, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataContentDisposition, symObjAddr: 0x7F0, symBinAddr: 0x1C338, symSize: 0x0 }
+  - { offsetInCU: 0x2AC, offset: 0x27BEC, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataContentEncoding, symObjAddr: 0x7F8, symBinAddr: 0x1C340, symSize: 0x0 }
+  - { offsetInCU: 0x2C1, offset: 0x27C01, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataContentLanguage, symObjAddr: 0x800, symBinAddr: 0x1C348, symSize: 0x0 }
+  - { offsetInCU: 0x2D6, offset: 0x27C16, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataContentType, symObjAddr: 0x808, symBinAddr: 0x1C350, symSize: 0x0 }
+  - { offsetInCU: 0x2EB, offset: 0x27C2B, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataCustomMetadata, symObjAddr: 0x810, symBinAddr: 0x1C358, symSize: 0x0 }
+  - { offsetInCU: 0x300, offset: 0x27C40, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataSize, symObjAddr: 0x818, symBinAddr: 0x1C360, symSize: 0x0 }
+  - { offsetInCU: 0x315, offset: 0x27C55, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataGeneration, symObjAddr: 0x820, symBinAddr: 0x1C368, symSize: 0x0 }
+  - { offsetInCU: 0x32A, offset: 0x27C6A, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataMetageneration, symObjAddr: 0x828, symBinAddr: 0x1C370, symSize: 0x0 }
+  - { offsetInCU: 0x33F, offset: 0x27C7F, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataTimeCreated, symObjAddr: 0x830, symBinAddr: 0x1C378, symSize: 0x0 }
+  - { offsetInCU: 0x354, offset: 0x27C94, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataUpdated, symObjAddr: 0x838, symBinAddr: 0x1C380, symSize: 0x0 }
+  - { offsetInCU: 0x369, offset: 0x27CA9, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataName, symObjAddr: 0x840, symBinAddr: 0x1C388, symSize: 0x0 }
+  - { offsetInCU: 0x37E, offset: 0x27CBE, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataDownloadTokens, symObjAddr: 0x848, symBinAddr: 0x1C390, symSize: 0x0 }
+  - { offsetInCU: 0x393, offset: 0x27CD3, size: 0x8, addend: 0x0, symName: _kFIRStorageMetadataMd5Hash, symObjAddr: 0x850, symBinAddr: 0x1C398, symSize: 0x0 }
+  - { offsetInCU: 0x3A8, offset: 0x27CE8, size: 0x8, addend: 0x0, symName: _kFIRIMPLStorageTaskStatusResumeNotification, symObjAddr: 0x858, symBinAddr: 0x1C3A0, symSize: 0x0 }
+  - { offsetInCU: 0x3BD, offset: 0x27CFD, size: 0x8, addend: 0x0, symName: _kFIRIMPLStorageTaskStatusPauseNotification, symObjAddr: 0x860, symBinAddr: 0x1C3A8, symSize: 0x0 }
+  - { offsetInCU: 0x3D2, offset: 0x27D12, size: 0x8, addend: 0x0, symName: _kFIRIMPLStorageTaskStatusProgressNotification, symObjAddr: 0x868, symBinAddr: 0x1C3B0, symSize: 0x0 }
+  - { offsetInCU: 0x3E7, offset: 0x27D27, size: 0x8, addend: 0x0, symName: _kFIRIMPLStorageTaskStatusCompleteNotification, symObjAddr: 0x870, symBinAddr: 0x1C3B8, symSize: 0x0 }
+  - { offsetInCU: 0x3FC, offset: 0x27D3C, size: 0x8, addend: 0x0, symName: _kFIRIMPLStorageTaskStatusFailureNotification, symObjAddr: 0x878, symBinAddr: 0x1C3C0, symSize: 0x0 }
+  - { offsetInCU: 0x411, offset: 0x27D51, size: 0x8, addend: 0x0, symName: _kFIRStorageBundleIdentifier, symObjAddr: 0x880, symBinAddr: 0x1C3C8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x27D88, size: 0x8, addend: 0x0, symName: '-[FIRStorageDeleteTask dealloc]', symObjAddr: 0x0, symBinAddr: 0x5194, symSize: 0x50 }
+  - { offsetInCU: 0x4FB, offset: 0x2825C, size: 0x8, addend: 0x0, symName: '-[FIRStorageDeleteTask dealloc]', symObjAddr: 0x0, symBinAddr: 0x5194, symSize: 0x50 }
+  - { offsetInCU: 0x52C, offset: 0x2828D, size: 0x8, addend: 0x0, symName: '-[FIRStorageDeleteTask initWithReference:fetcherService:dispatchQueue:completion:]', symObjAddr: 0x50, symBinAddr: 0x51E4, symSize: 0xA8 }
+  - { offsetInCU: 0x59C, offset: 0x282FD, size: 0x8, addend: 0x0, symName: '-[FIRStorageDeleteTask enqueue]', symObjAddr: 0xF8, symBinAddr: 0x528C, symSize: 0xAC }
+  - { offsetInCU: 0x5DC, offset: 0x2833D, size: 0x8, addend: 0x0, symName: '___31-[FIRStorageDeleteTask enqueue]_block_invoke', symObjAddr: 0x1A4, symBinAddr: 0x5338, symSize: 0x224 }
+  - { offsetInCU: 0x66D, offset: 0x283CE, size: 0x8, addend: 0x0, symName: '___31-[FIRStorageDeleteTask enqueue]_block_invoke_2', symObjAddr: 0x3C8, symBinAddr: 0x555C, symSize: 0xF0 }
+  - { offsetInCU: 0x6ED, offset: 0x2844E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x4B8, symBinAddr: 0x564C, symSize: 0x34 }
+  - { offsetInCU: 0x716, offset: 0x28477, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x4EC, symBinAddr: 0x5680, symSize: 0x28 }
+  - { offsetInCU: 0x735, offset: 0x28496, size: 0x8, addend: 0x0, symName: '___31-[FIRStorageDeleteTask enqueue]_block_invoke.6', symObjAddr: 0x514, symBinAddr: 0x56A8, symSize: 0xA4 }
+  - { offsetInCU: 0x7C1, offset: 0x28522, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x5B8, symBinAddr: 0x574C, symSize: 0xC }
+  - { offsetInCU: 0x7EA, offset: 0x2854B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x5C4, symBinAddr: 0x5758, symSize: 0x8 }
+  - { offsetInCU: 0x809, offset: 0x2856A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x5CC, symBinAddr: 0x5760, symSize: 0x30 }
+  - { offsetInCU: 0x832, offset: 0x28593, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x5FC, symBinAddr: 0x5790, symSize: 0x28 }
+  - { offsetInCU: 0x851, offset: 0x285B2, size: 0x8, addend: 0x0, symName: '-[FIRStorageDeleteTask fetcher]', symObjAddr: 0x624, symBinAddr: 0x57B8, symSize: 0x10 }
+  - { offsetInCU: 0x888, offset: 0x285E9, size: 0x8, addend: 0x0, symName: '-[FIRStorageDeleteTask setFetcher:]', symObjAddr: 0x634, symBinAddr: 0x57C8, symSize: 0xC }
+  - { offsetInCU: 0x8C7, offset: 0x28628, size: 0x8, addend: 0x0, symName: '-[FIRStorageDeleteTask fetcherCompletion]', symObjAddr: 0x640, symBinAddr: 0x57D4, symSize: 0x10 }
+  - { offsetInCU: 0x8FE, offset: 0x2865F, size: 0x8, addend: 0x0, symName: '-[FIRStorageDeleteTask .cxx_destruct]', symObjAddr: 0x650, symBinAddr: 0x57E4, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x28885, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask initWithReference:fetcherService:dispatchQueue:file:]', symObjAddr: 0x0, symBinAddr: 0x5838, symSize: 0xD8 }
+  - { offsetInCU: 0x559, offset: 0x28DB7, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask initWithReference:fetcherService:dispatchQueue:file:]', symObjAddr: 0x0, symBinAddr: 0x5838, symSize: 0xD8 }
+  - { offsetInCU: 0x5C9, offset: 0x28E27, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask dealloc]', symObjAddr: 0xD8, symBinAddr: 0x5910, symSize: 0x50 }
+  - { offsetInCU: 0x5FA, offset: 0x28E58, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask enqueue]', symObjAddr: 0x128, symBinAddr: 0x5960, symSize: 0x8 }
+  - { offsetInCU: 0x629, offset: 0x28E87, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask enqueueWithData:]', symObjAddr: 0x130, symBinAddr: 0x5968, symSize: 0xDC }
+  - { offsetInCU: 0x678, offset: 0x28ED6, size: 0x8, addend: 0x0, symName: '___46-[FIRIMPLStorageDownloadTask enqueueWithData:]_block_invoke', symObjAddr: 0x20C, symBinAddr: 0x5A44, symSize: 0x408 }
+  - { offsetInCU: 0x718, offset: 0x28F76, size: 0x8, addend: 0x0, symName: '___46-[FIRIMPLStorageDownloadTask enqueueWithData:]_block_invoke_2', symObjAddr: 0x614, symBinAddr: 0x5E4C, symSize: 0x68 }
+  - { offsetInCU: 0x77D, offset: 0x28FDB, size: 0x8, addend: 0x0, symName: '___46-[FIRIMPLStorageDownloadTask enqueueWithData:]_block_invoke.12', symObjAddr: 0x690, symBinAddr: 0x5EB4, symSize: 0x11C }
+  - { offsetInCU: 0x7FC, offset: 0x2905A, size: 0x8, addend: 0x0, symName: '___46-[FIRIMPLStorageDownloadTask enqueueWithData:]_block_invoke.14', symObjAddr: 0x7AC, symBinAddr: 0x5FD0, symSize: 0x164 }
+  - { offsetInCU: 0x87C, offset: 0x290DA, size: 0x8, addend: 0x0, symName: '___46-[FIRIMPLStorageDownloadTask enqueueWithData:]_block_invoke.16', symObjAddr: 0x910, symBinAddr: 0x6134, symSize: 0x184 }
+  - { offsetInCU: 0x8D9, offset: 0x29137, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0xA94, symBinAddr: 0x62B8, symSize: 0x8 }
+  - { offsetInCU: 0x900, offset: 0x2915E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0xA9C, symBinAddr: 0x62C0, symSize: 0x8 }
+  - { offsetInCU: 0x91F, offset: 0x2917D, size: 0x8, addend: 0x0, symName: '___46-[FIRIMPLStorageDownloadTask enqueueWithData:]_block_invoke.19', symObjAddr: 0xAA4, symBinAddr: 0x62C8, symSize: 0xA4 }
+  - { offsetInCU: 0x9AB, offset: 0x29209, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48w, symObjAddr: 0xB48, symBinAddr: 0x636C, symSize: 0x38 }
+  - { offsetInCU: 0x9D4, offset: 0x29232, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0xB80, symBinAddr: 0x63A4, symSize: 0x30 }
+  - { offsetInCU: 0x9F3, offset: 0x29251, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask cancel]', symObjAddr: 0xBB0, symBinAddr: 0x63D4, symSize: 0x48 }
+  - { offsetInCU: 0xA33, offset: 0x29291, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask cancelWithError:]', symObjAddr: 0xBF8, symBinAddr: 0x641C, symSize: 0xDC }
+  - { offsetInCU: 0xA82, offset: 0x292E0, size: 0x8, addend: 0x0, symName: '___46-[FIRIMPLStorageDownloadTask cancelWithError:]_block_invoke', symObjAddr: 0xCD4, symBinAddr: 0x64F8, symSize: 0xDC }
+  - { offsetInCU: 0xACA, offset: 0x29328, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask pause]', symObjAddr: 0xE08, symBinAddr: 0x65D4, symSize: 0xA8 }
+  - { offsetInCU: 0xB0A, offset: 0x29368, size: 0x8, addend: 0x0, symName: '___35-[FIRIMPLStorageDownloadTask pause]_block_invoke', symObjAddr: 0xEB0, symBinAddr: 0x667C, symSize: 0x118 }
+  - { offsetInCU: 0xB60, offset: 0x293BE, size: 0x8, addend: 0x0, symName: '___35-[FIRIMPLStorageDownloadTask pause]_block_invoke_2', symObjAddr: 0xFC8, symBinAddr: 0x6794, symSize: 0x84 }
+  - { offsetInCU: 0xBD4, offset: 0x29432, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask resume]', symObjAddr: 0x104C, symBinAddr: 0x6818, symSize: 0xA8 }
+  - { offsetInCU: 0xC14, offset: 0x29472, size: 0x8, addend: 0x0, symName: '___36-[FIRIMPLStorageDownloadTask resume]_block_invoke', symObjAddr: 0x10F4, symBinAddr: 0x68C0, symSize: 0xEC }
+  - { offsetInCU: 0xC6A, offset: 0x294C8, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask progress]', symObjAddr: 0x11E0, symBinAddr: 0x69AC, symSize: 0x10 }
+  - { offsetInCU: 0xC9F, offset: 0x294FD, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask setProgress:]', symObjAddr: 0x11F0, symBinAddr: 0x69BC, symSize: 0x14 }
+  - { offsetInCU: 0xCDE, offset: 0x2953C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask fetcher]', symObjAddr: 0x1204, symBinAddr: 0x69D0, symSize: 0x10 }
+  - { offsetInCU: 0xD15, offset: 0x29573, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask setFetcher:]', symObjAddr: 0x1214, symBinAddr: 0x69E0, symSize: 0xC }
+  - { offsetInCU: 0xD54, offset: 0x295B2, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask fetcherCompletion]', symObjAddr: 0x1220, symBinAddr: 0x69EC, symSize: 0x10 }
+  - { offsetInCU: 0xD8B, offset: 0x295E9, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask downloadData]', symObjAddr: 0x1230, symBinAddr: 0x69FC, symSize: 0x10 }
+  - { offsetInCU: 0xDC0, offset: 0x2961E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask fileURL]', symObjAddr: 0x1240, symBinAddr: 0x6A0C, symSize: 0x10 }
+  - { offsetInCU: 0xDF5, offset: 0x29653, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask setFileURL:]', symObjAddr: 0x1250, symBinAddr: 0x6A1C, symSize: 0xC }
+  - { offsetInCU: 0xE34, offset: 0x29692, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageDownloadTask .cxx_destruct]', symObjAddr: 0x125C, symBinAddr: 0x6A28, symSize: 0x7C }
+  - { offsetInCU: 0x27, offset: 0x29B81, size: 0x8, addend: 0x0, symName: '+[FIRStorageErrors errorWithCode:]', symObjAddr: 0x0, symBinAddr: 0x6AA4, symSize: 0x10 }
+  - { offsetInCU: 0x34, offset: 0x29B8E, size: 0x8, addend: 0x0, symName: '+[FIRStorageErrors errorWithCode:infoDictionary:]', symObjAddr: 0x10, symBinAddr: 0x6AB4, symSize: 0x3D4 }
+  - { offsetInCU: 0x226, offset: 0x29D80, size: 0x8, addend: 0x0, symName: '+[FIRStorageErrors errorWithCode:]', symObjAddr: 0x0, symBinAddr: 0x6AA4, symSize: 0x10 }
+  - { offsetInCU: 0x265, offset: 0x29DBF, size: 0x8, addend: 0x0, symName: '+[FIRStorageErrors errorWithServerError:reference:]', symObjAddr: 0x3E4, symBinAddr: 0x6E88, symSize: 0x278 }
+  - { offsetInCU: 0x30C, offset: 0x29E66, size: 0x8, addend: 0x0, symName: '+[FIRStorageErrors errorWithInvalidRequest:]', symObjAddr: 0x65C, symBinAddr: 0x7100, symSize: 0x12C }
+  - { offsetInCU: 0x378, offset: 0x29ED2, size: 0x8, addend: 0x0, symName: '+[FIRStorageErrors errorWithCustomMessage:]', symObjAddr: 0x788, symBinAddr: 0x722C, symSize: 0xE0 }
+  - { offsetInCU: 0x27, offset: 0x2A072, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask initWithReference:fetcherService:dispatchQueue:completion:]', symObjAddr: 0x0, symBinAddr: 0x730C, symSize: 0xA8 }
+  - { offsetInCU: 0x592, offset: 0x2A5DD, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask initWithReference:fetcherService:dispatchQueue:completion:]', symObjAddr: 0x0, symBinAddr: 0x730C, symSize: 0xA8 }
+  - { offsetInCU: 0x602, offset: 0x2A64D, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask dealloc]', symObjAddr: 0xA8, symBinAddr: 0x73B4, symSize: 0x50 }
+  - { offsetInCU: 0x633, offset: 0x2A67E, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask downloadURLFromMetadataDictionary:]', symObjAddr: 0xF8, symBinAddr: 0x7404, symSize: 0x388 }
+  - { offsetInCU: 0x6FC, offset: 0x2A747, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask enqueue]', symObjAddr: 0x480, symBinAddr: 0x778C, symSize: 0xAC }
+  - { offsetInCU: 0x73C, offset: 0x2A787, size: 0x8, addend: 0x0, symName: '___39-[FIRStorageGetDownloadURLTask enqueue]_block_invoke', symObjAddr: 0x52C, symBinAddr: 0x7838, symSize: 0x23C }
+  - { offsetInCU: 0x7CD, offset: 0x2A818, size: 0x8, addend: 0x0, symName: '___39-[FIRStorageGetDownloadURLTask enqueue]_block_invoke_2', symObjAddr: 0x768, symBinAddr: 0x7A74, symSize: 0x1B4 }
+  - { offsetInCU: 0x899, offset: 0x2A8E4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x91C, symBinAddr: 0x7C28, symSize: 0x3C }
+  - { offsetInCU: 0x8C2, offset: 0x2A90D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x958, symBinAddr: 0x7C64, symSize: 0x30 }
+  - { offsetInCU: 0x8E1, offset: 0x2A92C, size: 0x8, addend: 0x0, symName: '___39-[FIRStorageGetDownloadURLTask enqueue]_block_invoke.22', symObjAddr: 0x988, symBinAddr: 0x7C94, symSize: 0xA4 }
+  - { offsetInCU: 0x96D, offset: 0x2A9B8, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask fetcher]', symObjAddr: 0xA98, symBinAddr: 0x7D38, symSize: 0x10 }
+  - { offsetInCU: 0x9A4, offset: 0x2A9EF, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask setFetcher:]', symObjAddr: 0xAA8, symBinAddr: 0x7D48, symSize: 0xC }
+  - { offsetInCU: 0x9E3, offset: 0x2AA2E, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask fetcherCompletion]', symObjAddr: 0xAB4, symBinAddr: 0x7D54, symSize: 0x10 }
+  - { offsetInCU: 0xA1A, offset: 0x2AA65, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetDownloadURLTask .cxx_destruct]', symObjAddr: 0xAC4, symBinAddr: 0x7D64, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x2ACA7, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetMetadataTask initWithReference:fetcherService:dispatchQueue:completion:]', symObjAddr: 0x0, symBinAddr: 0x7DB8, symSize: 0xA8 }
+  - { offsetInCU: 0x54E, offset: 0x2B1CE, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetMetadataTask initWithReference:fetcherService:dispatchQueue:completion:]', symObjAddr: 0x0, symBinAddr: 0x7DB8, symSize: 0xA8 }
+  - { offsetInCU: 0x5BE, offset: 0x2B23E, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetMetadataTask dealloc]', symObjAddr: 0xA8, symBinAddr: 0x7E60, symSize: 0x50 }
+  - { offsetInCU: 0x5EF, offset: 0x2B26F, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetMetadataTask enqueue]', symObjAddr: 0xF8, symBinAddr: 0x7EB0, symSize: 0xAC }
+  - { offsetInCU: 0x62F, offset: 0x2B2AF, size: 0x8, addend: 0x0, symName: '___36-[FIRStorageGetMetadataTask enqueue]_block_invoke', symObjAddr: 0x1A4, symBinAddr: 0x7F5C, symSize: 0x224 }
+  - { offsetInCU: 0x6C0, offset: 0x2B340, size: 0x8, addend: 0x0, symName: '___36-[FIRStorageGetMetadataTask enqueue]_block_invoke_2', symObjAddr: 0x3C8, symBinAddr: 0x8180, symSize: 0x18C }
+  - { offsetInCU: 0x77D, offset: 0x2B3FD, size: 0x8, addend: 0x0, symName: '___36-[FIRStorageGetMetadataTask enqueue]_block_invoke.8', symObjAddr: 0x5B0, symBinAddr: 0x830C, symSize: 0xA4 }
+  - { offsetInCU: 0x809, offset: 0x2B489, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetMetadataTask fetcher]', symObjAddr: 0x6C0, symBinAddr: 0x83B0, symSize: 0x10 }
+  - { offsetInCU: 0x840, offset: 0x2B4C0, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetMetadataTask setFetcher:]', symObjAddr: 0x6D0, symBinAddr: 0x83C0, symSize: 0xC }
+  - { offsetInCU: 0x87F, offset: 0x2B4FF, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetMetadataTask fetcherCompletion]', symObjAddr: 0x6DC, symBinAddr: 0x83CC, symSize: 0x10 }
+  - { offsetInCU: 0x8B6, offset: 0x2B536, size: 0x8, addend: 0x0, symName: '-[FIRStorageGetMetadataTask .cxx_destruct]', symObjAddr: 0x6EC, symBinAddr: 0x83DC, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x2B75C, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorageListResult fromDictionary:atReference:]', symObjAddr: 0x0, symBinAddr: 0x8430, symSize: 0x348 }
+  - { offsetInCU: 0xD5, offset: 0x2B80A, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorageListResult fromDictionary:atReference:]', symObjAddr: 0x0, symBinAddr: 0x8430, symSize: 0x348 }
+  - { offsetInCU: 0x1F2, offset: 0x2B927, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageListResult initWithPrefixes:items:pageToken:]', symObjAddr: 0x348, symBinAddr: 0x8778, symSize: 0xE0 }
+  - { offsetInCU: 0x253, offset: 0x2B988, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageListResult copyWithZone:]', symObjAddr: 0x428, symBinAddr: 0x8858, symSize: 0x34 }
+  - { offsetInCU: 0x2A2, offset: 0x2B9D7, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageListResult prefixes]', symObjAddr: 0x45C, symBinAddr: 0x888C, symSize: 0x8 }
+  - { offsetInCU: 0x2D7, offset: 0x2BA0C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageListResult items]', symObjAddr: 0x464, symBinAddr: 0x8894, symSize: 0x8 }
+  - { offsetInCU: 0x30C, offset: 0x2BA41, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageListResult pageToken]', symObjAddr: 0x46C, symBinAddr: 0x889C, symSize: 0x8 }
+  - { offsetInCU: 0x341, offset: 0x2BA76, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageListResult .cxx_destruct]', symObjAddr: 0x474, symBinAddr: 0x88A4, symSize: 0x3C }
+  - { offsetInCU: 0x27, offset: 0x2BBF6, size: 0x8, addend: 0x0, symName: '-[FIRStorageListTask initWithReference:fetcherService:dispatchQueue:pageSize:previousPageToken:completion:]', symObjAddr: 0x0, symBinAddr: 0x88E0, symSize: 0x118 }
+  - { offsetInCU: 0x55E, offset: 0x2C12D, size: 0x8, addend: 0x0, symName: '-[FIRStorageListTask initWithReference:fetcherService:dispatchQueue:pageSize:previousPageToken:completion:]', symObjAddr: 0x0, symBinAddr: 0x88E0, symSize: 0x118 }
+  - { offsetInCU: 0x5EC, offset: 0x2C1BB, size: 0x8, addend: 0x0, symName: '-[FIRStorageListTask dealloc]', symObjAddr: 0x118, symBinAddr: 0x89F8, symSize: 0x50 }
+  - { offsetInCU: 0x61D, offset: 0x2C1EC, size: 0x8, addend: 0x0, symName: '-[FIRStorageListTask enqueue]', symObjAddr: 0x168, symBinAddr: 0x8A48, symSize: 0xAC }
+  - { offsetInCU: 0x65D, offset: 0x2C22C, size: 0x8, addend: 0x0, symName: '___29-[FIRStorageListTask enqueue]_block_invoke', symObjAddr: 0x214, symBinAddr: 0x8AF4, symSize: 0x370 }
+  - { offsetInCU: 0x71B, offset: 0x2C2EA, size: 0x8, addend: 0x0, symName: '___29-[FIRStorageListTask enqueue]_block_invoke_2', symObjAddr: 0x584, symBinAddr: 0x8E64, symSize: 0x180 }
+  - { offsetInCU: 0x7D1, offset: 0x2C3A0, size: 0x8, addend: 0x0, symName: '___29-[FIRStorageListTask enqueue]_block_invoke.20', symObjAddr: 0x760, symBinAddr: 0x8FE4, symSize: 0xA4 }
+  - { offsetInCU: 0x85D, offset: 0x2C42C, size: 0x8, addend: 0x0, symName: '-[FIRStorageListTask fetcher]', symObjAddr: 0x870, symBinAddr: 0x9088, symSize: 0x10 }
+  - { offsetInCU: 0x894, offset: 0x2C463, size: 0x8, addend: 0x0, symName: '-[FIRStorageListTask setFetcher:]', symObjAddr: 0x880, symBinAddr: 0x9098, symSize: 0xC }
+  - { offsetInCU: 0x8D3, offset: 0x2C4A2, size: 0x8, addend: 0x0, symName: '-[FIRStorageListTask fetcherCompletion]', symObjAddr: 0x88C, symBinAddr: 0x90A4, symSize: 0x10 }
+  - { offsetInCU: 0x90A, offset: 0x2C4D9, size: 0x8, addend: 0x0, symName: '-[FIRStorageListTask .cxx_destruct]', symObjAddr: 0x89C, symBinAddr: 0x90B4, symSize: 0x7C }
+  - { offsetInCU: 0x35, offset: 0x2C712, size: 0x8, addend: 0x0, symName: _kFIRLoggerStorage, symObjAddr: 0x60, symBinAddr: 0x1C5B0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x2C73C, size: 0x8, addend: 0x0, symName: _kFIRStorageMessageCodeAppCheckError, symObjAddr: 0x68, symBinAddr: 0x1C5B8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x2C78F, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata init]', symObjAddr: 0x0, symBinAddr: 0x9130, symSize: 0x50 }
+  - { offsetInCU: 0x40, offset: 0x2C7A8, size: 0x8, addend: 0x0, symName: _sRFC3339DateFormatter, symObjAddr: 0x76A0, symBinAddr: 0x23B10, symSize: 0x0 }
+  - { offsetInCU: 0x308, offset: 0x2CA70, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata init]', symObjAddr: 0x0, symBinAddr: 0x9130, symSize: 0x50 }
+  - { offsetInCU: 0x33C, offset: 0x2CAA4, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata initWithDictionary:]', symObjAddr: 0x50, symBinAddr: 0x9180, symSize: 0x354 }
+  - { offsetInCU: 0x37F, offset: 0x2CAE7, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata copyWithZone:]', symObjAddr: 0x3A4, symBinAddr: 0x94D4, symSize: 0xA0 }
+  - { offsetInCU: 0x3D1, offset: 0x2CB39, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata isEqual:]', symObjAddr: 0x444, symBinAddr: 0x9574, symSize: 0x78 }
+  - { offsetInCU: 0x421, offset: 0x2CB89, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata isEqualToFIRStorageMetadata:]', symObjAddr: 0x4BC, symBinAddr: 0x95EC, symSize: 0x84 }
+  - { offsetInCU: 0x465, offset: 0x2CBCD, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata hash]', symObjAddr: 0x540, symBinAddr: 0x9670, symSize: 0x3C }
+  - { offsetInCU: 0x4AA, offset: 0x2CC12, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata description]', symObjAddr: 0x57C, symBinAddr: 0x96AC, symSize: 0x7C }
+  - { offsetInCU: 0x4ED, offset: 0x2CC55, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata dictionaryRepresentation]', symObjAddr: 0x5F8, symBinAddr: 0x9728, symSize: 0x2A4 }
+  - { offsetInCU: 0x56A, offset: 0x2CCD2, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata isFile]', symObjAddr: 0x89C, symBinAddr: 0x99CC, symSize: 0x10 }
+  - { offsetInCU: 0x59F, offset: 0x2CD07, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata isFolder]', symObjAddr: 0x8AC, symBinAddr: 0x99DC, symSize: 0x10 }
+  - { offsetInCU: 0x5D4, offset: 0x2CD3C, size: 0x8, addend: 0x0, symName: '+[FIRIMPLStorageMetadata removeMatchingMetadata:oldMetadata:]', symObjAddr: 0x8BC, symBinAddr: 0x99EC, symSize: 0x29C }
+  - { offsetInCU: 0x67B, offset: 0x2CDE3, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata updatedMetadata]', symObjAddr: 0xB58, symBinAddr: 0x9C88, symSize: 0x70 }
+  - { offsetInCU: 0x6F9, offset: 0x2CE61, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata dateFromRFC3339String:]', symObjAddr: 0xBC8, symBinAddr: 0x9CF8, symSize: 0x74 }
+  - { offsetInCU: 0x781, offset: 0x2CEE9, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata RFC3339StringFromDate:]', symObjAddr: 0xC3C, symBinAddr: 0x9D6C, symSize: 0x74 }
+  - { offsetInCU: 0x7F7, offset: 0x2CF5F, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata bucket]', symObjAddr: 0xCB0, symBinAddr: 0x9DE0, symSize: 0x8 }
+  - { offsetInCU: 0x82C, offset: 0x2CF94, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata cacheControl]', symObjAddr: 0xCB8, symBinAddr: 0x9DE8, symSize: 0x8 }
+  - { offsetInCU: 0x861, offset: 0x2CFC9, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setCacheControl:]', symObjAddr: 0xCC0, symBinAddr: 0x9DF0, symSize: 0x8 }
+  - { offsetInCU: 0x8A0, offset: 0x2D008, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata contentDisposition]', symObjAddr: 0xCC8, symBinAddr: 0x9DF8, symSize: 0x8 }
+  - { offsetInCU: 0x8D5, offset: 0x2D03D, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setContentDisposition:]', symObjAddr: 0xCD0, symBinAddr: 0x9E00, symSize: 0x8 }
+  - { offsetInCU: 0x914, offset: 0x2D07C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata contentEncoding]', symObjAddr: 0xCD8, symBinAddr: 0x9E08, symSize: 0x8 }
+  - { offsetInCU: 0x949, offset: 0x2D0B1, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setContentEncoding:]', symObjAddr: 0xCE0, symBinAddr: 0x9E10, symSize: 0x8 }
+  - { offsetInCU: 0x988, offset: 0x2D0F0, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata contentLanguage]', symObjAddr: 0xCE8, symBinAddr: 0x9E18, symSize: 0x8 }
+  - { offsetInCU: 0x9BD, offset: 0x2D125, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setContentLanguage:]', symObjAddr: 0xCF0, symBinAddr: 0x9E20, symSize: 0x8 }
+  - { offsetInCU: 0x9FC, offset: 0x2D164, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata contentType]', symObjAddr: 0xCF8, symBinAddr: 0x9E28, symSize: 0x8 }
+  - { offsetInCU: 0xA31, offset: 0x2D199, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setContentType:]', symObjAddr: 0xD00, symBinAddr: 0x9E30, symSize: 0x8 }
+  - { offsetInCU: 0xA70, offset: 0x2D1D8, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata md5Hash]', symObjAddr: 0xD08, symBinAddr: 0x9E38, symSize: 0x8 }
+  - { offsetInCU: 0xAA5, offset: 0x2D20D, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata generation]', symObjAddr: 0xD10, symBinAddr: 0x9E40, symSize: 0x8 }
+  - { offsetInCU: 0xADA, offset: 0x2D242, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata customMetadata]', symObjAddr: 0xD18, symBinAddr: 0x9E48, symSize: 0x8 }
+  - { offsetInCU: 0xB0F, offset: 0x2D277, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setCustomMetadata:]', symObjAddr: 0xD20, symBinAddr: 0x9E50, symSize: 0x8 }
+  - { offsetInCU: 0xB4E, offset: 0x2D2B6, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata metageneration]', symObjAddr: 0xD28, symBinAddr: 0x9E58, symSize: 0x8 }
+  - { offsetInCU: 0xB83, offset: 0x2D2EB, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata name]', symObjAddr: 0xD30, symBinAddr: 0x9E60, symSize: 0x8 }
+  - { offsetInCU: 0xBB8, offset: 0x2D320, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setName:]', symObjAddr: 0xD38, symBinAddr: 0x9E68, symSize: 0x8 }
+  - { offsetInCU: 0xBF7, offset: 0x2D35F, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata path]', symObjAddr: 0xD40, symBinAddr: 0x9E70, symSize: 0x8 }
+  - { offsetInCU: 0xC2C, offset: 0x2D394, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setPath:]', symObjAddr: 0xD48, symBinAddr: 0x9E78, symSize: 0x8 }
+  - { offsetInCU: 0xC6B, offset: 0x2D3D3, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata size]', symObjAddr: 0xD50, symBinAddr: 0x9E80, symSize: 0x8 }
+  - { offsetInCU: 0xCA0, offset: 0x2D408, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata timeCreated]', symObjAddr: 0xD58, symBinAddr: 0x9E88, symSize: 0x8 }
+  - { offsetInCU: 0xCD5, offset: 0x2D43D, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata updated]', symObjAddr: 0xD60, symBinAddr: 0x9E90, symSize: 0x8 }
+  - { offsetInCU: 0xD0A, offset: 0x2D472, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata storageReference]', symObjAddr: 0xD68, symBinAddr: 0x9E98, symSize: 0x8 }
+  - { offsetInCU: 0xD3F, offset: 0x2D4A7, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata reference]', symObjAddr: 0xD70, symBinAddr: 0x9EA0, symSize: 0x8 }
+  - { offsetInCU: 0xD74, offset: 0x2D4DC, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setReference:]', symObjAddr: 0xD78, symBinAddr: 0x9EA8, symSize: 0xC }
+  - { offsetInCU: 0xDB3, offset: 0x2D51B, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata type]', symObjAddr: 0xD84, symBinAddr: 0x9EB4, symSize: 0x8 }
+  - { offsetInCU: 0xDE8, offset: 0x2D550, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setType:]', symObjAddr: 0xD8C, symBinAddr: 0x9EBC, symSize: 0x8 }
+  - { offsetInCU: 0xE24, offset: 0x2D58C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata initialMetadata]', symObjAddr: 0xD94, symBinAddr: 0x9EC4, symSize: 0x8 }
+  - { offsetInCU: 0xE59, offset: 0x2D5C1, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata setInitialMetadata:]', symObjAddr: 0xD9C, symBinAddr: 0x9ECC, symSize: 0x8 }
+  - { offsetInCU: 0xE98, offset: 0x2D600, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageMetadata .cxx_destruct]', symObjAddr: 0xDA4, symBinAddr: 0x9ED4, symSize: 0xCC }
+  - { offsetInCU: 0xEC9, offset: 0x2D631, size: 0x8, addend: 0x0, symName: ___setupDateFormatterOnce_block_invoke, symObjAddr: 0xE70, symBinAddr: 0x9FA0, symSize: 0xB0 }
+  - { offsetInCU: 0x27, offset: 0x2D77E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask initWithReference:fetcherService:dispatchQueue:]', symObjAddr: 0x0, symBinAddr: 0xA050, symSize: 0x10C }
+  - { offsetInCU: 0x4AD, offset: 0x2DC04, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask initWithReference:fetcherService:dispatchQueue:]', symObjAddr: 0x0, symBinAddr: 0xA050, symSize: 0x10C }
+  - { offsetInCU: 0x50E, offset: 0x2DC65, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask observeStatus:handler:]', symObjAddr: 0x10C, symBinAddr: 0xA15C, symSize: 0x3BC }
+  - { offsetInCU: 0x58D, offset: 0x2DCE4, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask removeObserverWithHandle:]', symObjAddr: 0x4C8, symBinAddr: 0xA518, symSize: 0xD8 }
+  - { offsetInCU: 0x5EB, offset: 0x2DD42, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask removeAllObserversForStatus:]', symObjAddr: 0x5A0, symBinAddr: 0xA5F0, symSize: 0x78 }
+  - { offsetInCU: 0x63A, offset: 0x2DD91, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask removeAllObservers]', symObjAddr: 0x618, symBinAddr: 0xA668, symSize: 0xA4 }
+  - { offsetInCU: 0x66B, offset: 0x2DDC2, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask handlerDictionaryForStatus:]', symObjAddr: 0x6BC, symBinAddr: 0xA70C, symSize: 0xC0 }
+  - { offsetInCU: 0x6AE, offset: 0x2DE05, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask removeHandlersFromStatusMapForDictionary:]', symObjAddr: 0x77C, symBinAddr: 0xA7CC, symSize: 0x9C }
+  - { offsetInCU: 0x6EE, offset: 0x2DE45, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask fireHandlersForStatus:snapshot:]', symObjAddr: 0x818, symBinAddr: 0xA868, symSize: 0x68 }
+  - { offsetInCU: 0x75A, offset: 0x2DEB1, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask fireHandlers:snapshot:]', symObjAddr: 0x880, symBinAddr: 0xA8D0, symSize: 0x150 }
+  - { offsetInCU: 0x7DD, offset: 0x2DF34, size: 0x8, addend: 0x0, symName: '___54-[FIRIMPLStorageObservableTask fireHandlers:snapshot:]_block_invoke', symObjAddr: 0x9D0, symBinAddr: 0xAA20, symSize: 0xA4 }
+  - { offsetInCU: 0x87E, offset: 0x2DFD5, size: 0x8, addend: 0x0, symName: '___54-[FIRIMPLStorageObservableTask fireHandlers:snapshot:]_block_invoke_2', symObjAddr: 0xA74, symBinAddr: 0xAAC4, symSize: 0x10 }
+  - { offsetInCU: 0x8D3, offset: 0x2E02A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xAE0, symBinAddr: 0xAAD4, symSize: 0x28 }
+  - { offsetInCU: 0x8FC, offset: 0x2E053, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask state]', symObjAddr: 0xB08, symBinAddr: 0xAAFC, symSize: 0x10 }
+  - { offsetInCU: 0x931, offset: 0x2E088, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask setState:]', symObjAddr: 0xB18, symBinAddr: 0xAB0C, symSize: 0x10 }
+  - { offsetInCU: 0x96D, offset: 0x2E0C4, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageObservableTask .cxx_destruct]', symObjAddr: 0xB28, symBinAddr: 0xAB1C, symSize: 0x90 }
+  - { offsetInCU: 0x27, offset: 0x2E316, size: 0x8, addend: 0x0, symName: '+[FIRStoragePath pathFromString:]', symObjAddr: 0x0, symBinAddr: 0xABAC, symSize: 0xC8 }
+  - { offsetInCU: 0xD9, offset: 0x2E3C8, size: 0x8, addend: 0x0, symName: '+[FIRStoragePath pathFromString:]', symObjAddr: 0x0, symBinAddr: 0xABAC, symSize: 0xC8 }
+  - { offsetInCU: 0x118, offset: 0x2E407, size: 0x8, addend: 0x0, symName: '+[FIRStoragePath pathFromGSURI:]', symObjAddr: 0xC8, symBinAddr: 0xAC74, symSize: 0x124 }
+  - { offsetInCU: 0x1A4, offset: 0x2E493, size: 0x8, addend: 0x0, symName: '+[FIRStoragePath pathFromHTTPURL:]', symObjAddr: 0x1EC, symBinAddr: 0xAD98, symSize: 0x1BC }
+  - { offsetInCU: 0x23D, offset: 0x2E52C, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath initWithBucket:object:]', symObjAddr: 0x3A8, symBinAddr: 0xAF54, symSize: 0xD0 }
+  - { offsetInCU: 0x28F, offset: 0x2E57E, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath copyWithZone:]', symObjAddr: 0x478, symBinAddr: 0xB024, symSize: 0x30 }
+  - { offsetInCU: 0x2D2, offset: 0x2E5C1, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath isEqual:]', symObjAddr: 0x4A8, symBinAddr: 0xB054, symSize: 0x78 }
+  - { offsetInCU: 0x322, offset: 0x2E611, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath isEqualToFIRStoragePath:]', symObjAddr: 0x520, symBinAddr: 0xB0CC, symSize: 0xCC }
+  - { offsetInCU: 0x392, offset: 0x2E681, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath hash]', symObjAddr: 0x5EC, symBinAddr: 0xB198, symSize: 0x34 }
+  - { offsetInCU: 0x3D7, offset: 0x2E6C6, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath description]', symObjAddr: 0x620, symBinAddr: 0xB1CC, symSize: 0x80 }
+  - { offsetInCU: 0x40B, offset: 0x2E6FA, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath stringValue]', symObjAddr: 0x6A0, symBinAddr: 0xB24C, symSize: 0x48 }
+  - { offsetInCU: 0x43F, offset: 0x2E72E, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath child:]', symObjAddr: 0x6E8, symBinAddr: 0xB294, symSize: 0xA0 }
+  - { offsetInCU: 0x4A0, offset: 0x2E78F, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath parent]', symObjAddr: 0x788, symBinAddr: 0xB334, symSize: 0x6C }
+  - { offsetInCU: 0x4F2, offset: 0x2E7E1, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath root]', symObjAddr: 0x7F4, symBinAddr: 0xB3A0, symSize: 0x34 }
+  - { offsetInCU: 0x535, offset: 0x2E824, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath standardizedPathForString:]', symObjAddr: 0x828, symBinAddr: 0xB3D4, symSize: 0xA4 }
+  - { offsetInCU: 0x592, offset: 0x2E881, size: 0x8, addend: 0x0, symName: '___44-[FIRStoragePath standardizedPathForString:]_block_invoke', symObjAddr: 0x8CC, symBinAddr: 0xB478, symSize: 0x20 }
+  - { offsetInCU: 0x5E1, offset: 0x2E8D0, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath bucket]', symObjAddr: 0x8EC, symBinAddr: 0xB498, symSize: 0x8 }
+  - { offsetInCU: 0x616, offset: 0x2E905, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath setBucket:]', symObjAddr: 0x8F4, symBinAddr: 0xB4A0, symSize: 0x8 }
+  - { offsetInCU: 0x655, offset: 0x2E944, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath object]', symObjAddr: 0x8FC, symBinAddr: 0xB4A8, symSize: 0x8 }
+  - { offsetInCU: 0x68A, offset: 0x2E979, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath setObject:]', symObjAddr: 0x904, symBinAddr: 0xB4B0, symSize: 0x8 }
+  - { offsetInCU: 0x6C9, offset: 0x2E9B8, size: 0x8, addend: 0x0, symName: '-[FIRStoragePath .cxx_destruct]', symObjAddr: 0x90C, symBinAddr: 0xB4B8, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x2EB32, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference initWithStorage:path:]', symObjAddr: 0x0, symBinAddr: 0xB4E8, symSize: 0xA4 }
+  - { offsetInCU: 0x2CA, offset: 0x2EDD5, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference initWithStorage:path:]', symObjAddr: 0x0, symBinAddr: 0xB4E8, symSize: 0xA4 }
+  - { offsetInCU: 0x31C, offset: 0x2EE27, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference copyWithZone:]', symObjAddr: 0xA4, symBinAddr: 0xB58C, symSize: 0x30 }
+  - { offsetInCU: 0x36B, offset: 0x2EE76, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference isEqual:]', symObjAddr: 0xD4, symBinAddr: 0xB5BC, symSize: 0x78 }
+  - { offsetInCU: 0x3BB, offset: 0x2EEC6, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference isEqualToFIRIMPLStorageReference:]', symObjAddr: 0x14C, symBinAddr: 0xB634, symSize: 0xA0 }
+  - { offsetInCU: 0x40B, offset: 0x2EF16, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference hash]', symObjAddr: 0x1EC, symBinAddr: 0xB6D4, symSize: 0x34 }
+  - { offsetInCU: 0x450, offset: 0x2EF5B, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference description]', symObjAddr: 0x220, symBinAddr: 0xB708, symSize: 0x4 }
+  - { offsetInCU: 0x484, offset: 0x2EF8F, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference stringValue]', symObjAddr: 0x224, symBinAddr: 0xB70C, symSize: 0xA0 }
+  - { offsetInCU: 0x4C7, offset: 0x2EFD2, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference bucket]', symObjAddr: 0x2C4, symBinAddr: 0xB7AC, symSize: 0x8 }
+  - { offsetInCU: 0x508, offset: 0x2F013, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference fullPath]', symObjAddr: 0x2CC, symBinAddr: 0xB7B4, symSize: 0x30 }
+  - { offsetInCU: 0x54B, offset: 0x2F056, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference name]', symObjAddr: 0x2FC, symBinAddr: 0xB7E4, symSize: 0x54 }
+  - { offsetInCU: 0x58E, offset: 0x2F099, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference root]', symObjAddr: 0x350, symBinAddr: 0xB838, symSize: 0x58 }
+  - { offsetInCU: 0x5E0, offset: 0x2F0EB, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference parent]', symObjAddr: 0x3A8, symBinAddr: 0xB890, symSize: 0x64 }
+  - { offsetInCU: 0x632, offset: 0x2F13D, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference child:]', symObjAddr: 0x40C, symBinAddr: 0xB8F4, symSize: 0x58 }
+  - { offsetInCU: 0x693, offset: 0x2F19E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference putData:]', symObjAddr: 0x464, symBinAddr: 0xB94C, symSize: 0xC }
+  - { offsetInCU: 0x6D5, offset: 0x2F1E0, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference putData:metadata:]', symObjAddr: 0x470, symBinAddr: 0xB958, symSize: 0x8 }
+  - { offsetInCU: 0x733, offset: 0x2F23E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference putData:metadata:completion:]', symObjAddr: 0x478, symBinAddr: 0xB960, symSize: 0x2E0 }
+  - { offsetInCU: 0x7EB, offset: 0x2F2F6, size: 0x8, addend: 0x0, symName: '___55-[FIRIMPLStorageReference putData:metadata:completion:]_block_invoke', symObjAddr: 0x758, symBinAddr: 0xBC40, symSize: 0xA8 }
+  - { offsetInCU: 0x88E, offset: 0x2F399, size: 0x8, addend: 0x0, symName: '___55-[FIRIMPLStorageReference putData:metadata:completion:]_block_invoke_2', symObjAddr: 0x800, symBinAddr: 0xBCE8, symSize: 0x68 }
+  - { offsetInCU: 0x903, offset: 0x2F40E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48r, symObjAddr: 0x868, symBinAddr: 0xBD50, symSize: 0x44 }
+  - { offsetInCU: 0x92C, offset: 0x2F437, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x8AC, symBinAddr: 0xBD94, symSize: 0x34 }
+  - { offsetInCU: 0x94B, offset: 0x2F456, size: 0x8, addend: 0x0, symName: '___55-[FIRIMPLStorageReference putData:metadata:completion:]_block_invoke.8', symObjAddr: 0x8E0, symBinAddr: 0xBDC8, symSize: 0xA8 }
+  - { offsetInCU: 0x9CE, offset: 0x2F4D9, size: 0x8, addend: 0x0, symName: '___55-[FIRIMPLStorageReference putData:metadata:completion:]_block_invoke_2.9', symObjAddr: 0x988, symBinAddr: 0xBE70, symSize: 0x68 }
+  - { offsetInCU: 0xA43, offset: 0x2F54E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference putFile:]', symObjAddr: 0x9F0, symBinAddr: 0xBED8, symSize: 0xC }
+  - { offsetInCU: 0xA85, offset: 0x2F590, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference putFile:metadata:]', symObjAddr: 0x9FC, symBinAddr: 0xBEE4, symSize: 0x8 }
+  - { offsetInCU: 0xAD5, offset: 0x2F5E0, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference putFile:metadata:completion:]', symObjAddr: 0xA04, symBinAddr: 0xBEEC, symSize: 0x2E0 }
+  - { offsetInCU: 0xB8D, offset: 0x2F698, size: 0x8, addend: 0x0, symName: '___55-[FIRIMPLStorageReference putFile:metadata:completion:]_block_invoke', symObjAddr: 0xCE4, symBinAddr: 0xC1CC, symSize: 0xA8 }
+  - { offsetInCU: 0xC10, offset: 0x2F71B, size: 0x8, addend: 0x0, symName: '___55-[FIRIMPLStorageReference putFile:metadata:completion:]_block_invoke_2', symObjAddr: 0xD8C, symBinAddr: 0xC274, symSize: 0x68 }
+  - { offsetInCU: 0xC85, offset: 0x2F790, size: 0x8, addend: 0x0, symName: '___55-[FIRIMPLStorageReference putFile:metadata:completion:]_block_invoke_3', symObjAddr: 0xDF4, symBinAddr: 0xC2DC, symSize: 0xA8 }
+  - { offsetInCU: 0xD08, offset: 0x2F813, size: 0x8, addend: 0x0, symName: '___55-[FIRIMPLStorageReference putFile:metadata:completion:]_block_invoke_4', symObjAddr: 0xE9C, symBinAddr: 0xC384, symSize: 0x68 }
+  - { offsetInCU: 0xD7D, offset: 0x2F888, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference dataWithMaxSize:completion:]', symObjAddr: 0xF04, symBinAddr: 0xC3EC, symSize: 0x270 }
+  - { offsetInCU: 0xE20, offset: 0x2F92B, size: 0x8, addend: 0x0, symName: '___54-[FIRIMPLStorageReference dataWithMaxSize:completion:]_block_invoke', symObjAddr: 0x1174, symBinAddr: 0xC65C, symSize: 0xB0 }
+  - { offsetInCU: 0xEC8, offset: 0x2F9D3, size: 0x8, addend: 0x0, symName: '___54-[FIRIMPLStorageReference dataWithMaxSize:completion:]_block_invoke_2', symObjAddr: 0x1224, symBinAddr: 0xC70C, symSize: 0x68 }
+  - { offsetInCU: 0xF43, offset: 0x2FA4E, size: 0x8, addend: 0x0, symName: '___54-[FIRIMPLStorageReference dataWithMaxSize:completion:]_block_invoke_3', symObjAddr: 0x128C, symBinAddr: 0xC774, symSize: 0xA8 }
+  - { offsetInCU: 0xFCD, offset: 0x2FAD8, size: 0x8, addend: 0x0, symName: '___54-[FIRIMPLStorageReference dataWithMaxSize:completion:]_block_invoke_4', symObjAddr: 0x1334, symBinAddr: 0xC81C, symSize: 0x68 }
+  - { offsetInCU: 0x1048, offset: 0x2FB53, size: 0x8, addend: 0x0, symName: '___54-[FIRIMPLStorageReference dataWithMaxSize:completion:]_block_invoke_5', symObjAddr: 0x139C, symBinAddr: 0xC884, symSize: 0x1C4 }
+  - { offsetInCU: 0x10E2, offset: 0x2FBED, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference writeToFile:]', symObjAddr: 0x1560, symBinAddr: 0xCA48, symSize: 0x8 }
+  - { offsetInCU: 0x1126, offset: 0x2FC31, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference writeToFile:completion:]', symObjAddr: 0x1568, symBinAddr: 0xCA50, symSize: 0x25C }
+  - { offsetInCU: 0x11D6, offset: 0x2FCE1, size: 0x8, addend: 0x0, symName: '___50-[FIRIMPLStorageReference writeToFile:completion:]_block_invoke', symObjAddr: 0x17C4, symBinAddr: 0xCCAC, symSize: 0x8C }
+  - { offsetInCU: 0x126D, offset: 0x2FD78, size: 0x8, addend: 0x0, symName: '___50-[FIRIMPLStorageReference writeToFile:completion:]_block_invoke_2', symObjAddr: 0x1850, symBinAddr: 0xCD38, symSize: 0x30 }
+  - { offsetInCU: 0x12DD, offset: 0x2FDE8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56r, symObjAddr: 0x1880, symBinAddr: 0xCD68, symSize: 0x4C }
+  - { offsetInCU: 0x1306, offset: 0x2FE11, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x18CC, symBinAddr: 0xCDB4, symSize: 0x3C }
+  - { offsetInCU: 0x1325, offset: 0x2FE30, size: 0x8, addend: 0x0, symName: '___50-[FIRIMPLStorageReference writeToFile:completion:]_block_invoke.18', symObjAddr: 0x1908, symBinAddr: 0xCDF0, symSize: 0xA8 }
+  - { offsetInCU: 0x13AF, offset: 0x2FEBA, size: 0x8, addend: 0x0, symName: '___50-[FIRIMPLStorageReference writeToFile:completion:]_block_invoke_2.19', symObjAddr: 0x19B0, symBinAddr: 0xCE98, symSize: 0x68 }
+  - { offsetInCU: 0x142A, offset: 0x2FF35, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference downloadURLWithCompletion:]', symObjAddr: 0x1A18, symBinAddr: 0xCF00, symSize: 0xB4 }
+  - { offsetInCU: 0x147C, offset: 0x2FF87, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference listWithMaxResults:completion:]', symObjAddr: 0x1ACC, symBinAddr: 0xCFB4, symSize: 0x148 }
+  - { offsetInCU: 0x150A, offset: 0x30015, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference listWithMaxResults:pageToken:completion:]', symObjAddr: 0x1C14, symBinAddr: 0xD0FC, symSize: 0x164 }
+  - { offsetInCU: 0x15A8, offset: 0x300B3, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference listAllWithCompletion:]', symObjAddr: 0x1D78, symBinAddr: 0xD260, symSize: 0x228 }
+  - { offsetInCU: 0x1640, offset: 0x3014B, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1FA0, symBinAddr: 0xD488, symSize: 0x28 }
+  - { offsetInCU: 0x1669, offset: 0x30174, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1FC8, symBinAddr: 0xD4B0, symSize: 0x8 }
+  - { offsetInCU: 0x1688, offset: 0x30193, size: 0x8, addend: 0x0, symName: '___49-[FIRIMPLStorageReference listAllWithCompletion:]_block_invoke', symObjAddr: 0x1FD0, symBinAddr: 0xD4B8, symSize: 0x1DC }
+  - { offsetInCU: 0x17C2, offset: 0x302CD, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b64r72w, symObjAddr: 0x21AC, symBinAddr: 0xD694, symSize: 0x60 }
+  - { offsetInCU: 0x17EB, offset: 0x302F6, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64r72w, symObjAddr: 0x220C, symBinAddr: 0xD6F4, symSize: 0x4C }
+  - { offsetInCU: 0x180A, offset: 0x30315, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference metadataWithCompletion:]', symObjAddr: 0x2258, symBinAddr: 0xD740, symSize: 0xB4 }
+  - { offsetInCU: 0x185C, offset: 0x30367, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference updateMetadata:completion:]', symObjAddr: 0x230C, symBinAddr: 0xD7F4, symSize: 0xD0 }
+  - { offsetInCU: 0x18BE, offset: 0x303C9, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference deleteWithCompletion:]', symObjAddr: 0x23DC, symBinAddr: 0xD8C4, symSize: 0xB4 }
+  - { offsetInCU: 0x1910, offset: 0x3041B, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference storage]', symObjAddr: 0x2490, symBinAddr: 0xD978, symSize: 0x8 }
+  - { offsetInCU: 0x1945, offset: 0x30450, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference setStorage:]', symObjAddr: 0x2498, symBinAddr: 0xD980, symSize: 0xC }
+  - { offsetInCU: 0x1984, offset: 0x3048F, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference path]', symObjAddr: 0x24A4, symBinAddr: 0xD98C, symSize: 0x8 }
+  - { offsetInCU: 0x19B9, offset: 0x304C4, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference setPath:]', symObjAddr: 0x24AC, symBinAddr: 0xD994, symSize: 0xC }
+  - { offsetInCU: 0x19F8, offset: 0x30503, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageReference .cxx_destruct]', symObjAddr: 0x24B8, symBinAddr: 0xD9A0, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x314EA, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask init]', symObjAddr: 0x0, symBinAddr: 0xD9D0, symSize: 0x38 }
+  - { offsetInCU: 0x529, offset: 0x319EC, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask init]', symObjAddr: 0x0, symBinAddr: 0xD9D0, symSize: 0x38 }
+  - { offsetInCU: 0x559, offset: 0x31A1C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask initWithReference:fetcherService:dispatchQueue:]', symObjAddr: 0x38, symBinAddr: 0xDA08, symSize: 0x120 }
+  - { offsetInCU: 0x5BA, offset: 0x31A7D, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask snapshot]', symObjAddr: 0x158, symBinAddr: 0xDB28, symSize: 0x180 }
+  - { offsetInCU: 0x613, offset: 0x31AD6, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask dispatchAsync:]', symObjAddr: 0x2D8, symBinAddr: 0xDCA8, symSize: 0x50 }
+  - { offsetInCU: 0x6DB, offset: 0x31B9E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask setSnapshot:]', symObjAddr: 0x328, symBinAddr: 0xDCF8, symSize: 0xC }
+  - { offsetInCU: 0x71A, offset: 0x31BDD, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask state]', symObjAddr: 0x334, symBinAddr: 0xDD04, symSize: 0x8 }
+  - { offsetInCU: 0x74F, offset: 0x31C12, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask setState:]', symObjAddr: 0x33C, symBinAddr: 0xDD0C, symSize: 0x8 }
+  - { offsetInCU: 0x78B, offset: 0x31C4E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask metadata]', symObjAddr: 0x344, symBinAddr: 0xDD14, symSize: 0x8 }
+  - { offsetInCU: 0x7C0, offset: 0x31C83, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask setMetadata:]', symObjAddr: 0x34C, symBinAddr: 0xDD1C, symSize: 0xC }
+  - { offsetInCU: 0x7FF, offset: 0x31CC2, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask error]', symObjAddr: 0x358, symBinAddr: 0xDD28, symSize: 0x8 }
+  - { offsetInCU: 0x834, offset: 0x31CF7, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask setError:]', symObjAddr: 0x360, symBinAddr: 0xDD30, symSize: 0xC }
+  - { offsetInCU: 0x873, offset: 0x31D36, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask progress]', symObjAddr: 0x36C, symBinAddr: 0xDD3C, symSize: 0x8 }
+  - { offsetInCU: 0x8A8, offset: 0x31D6B, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask setProgress:]', symObjAddr: 0x374, symBinAddr: 0xDD44, symSize: 0xC }
+  - { offsetInCU: 0x8E7, offset: 0x31DAA, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask reference]', symObjAddr: 0x380, symBinAddr: 0xDD50, symSize: 0x8 }
+  - { offsetInCU: 0x91C, offset: 0x31DDF, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask setReference:]', symObjAddr: 0x388, symBinAddr: 0xDD58, symSize: 0xC }
+  - { offsetInCU: 0x95B, offset: 0x31E1E, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask dispatchQueue]', symObjAddr: 0x394, symBinAddr: 0xDD64, symSize: 0x8 }
+  - { offsetInCU: 0x990, offset: 0x31E53, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask baseRequest]', symObjAddr: 0x39C, symBinAddr: 0xDD6C, symSize: 0x8 }
+  - { offsetInCU: 0x9C5, offset: 0x31E88, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask fetcher]', symObjAddr: 0x3A4, symBinAddr: 0xDD74, symSize: 0xC }
+  - { offsetInCU: 0x9FC, offset: 0x31EBF, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask setFetcher:]', symObjAddr: 0x3B0, symBinAddr: 0xDD80, symSize: 0x8 }
+  - { offsetInCU: 0xA3B, offset: 0x31EFE, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask fetcherService]', symObjAddr: 0x3B8, symBinAddr: 0xDD88, symSize: 0x8 }
+  - { offsetInCU: 0xA70, offset: 0x31F33, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask fetcherCompletion]', symObjAddr: 0x3C0, symBinAddr: 0xDD90, symSize: 0xC }
+  - { offsetInCU: 0xAA7, offset: 0x31F6A, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTask .cxx_destruct]', symObjAddr: 0x3CC, symBinAddr: 0xDD9C, symSize: 0x90 }
+  - { offsetInCU: 0x27, offset: 0x3200C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot initWithTask:state:metadata:reference:progress:error:]', symObjAddr: 0x0, symBinAddr: 0xDE2C, symSize: 0x14C }
+  - { offsetInCU: 0x46C, offset: 0x32451, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot initWithTask:state:metadata:reference:progress:error:]', symObjAddr: 0x0, symBinAddr: 0xDE2C, symSize: 0x14C }
+  - { offsetInCU: 0x4FA, offset: 0x324DF, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot description]', symObjAddr: 0x14C, symBinAddr: 0xDF78, symSize: 0xB0 }
+  - { offsetInCU: 0x52E, offset: 0x32513, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot task]', symObjAddr: 0x1FC, symBinAddr: 0xE028, symSize: 0x8 }
+  - { offsetInCU: 0x563, offset: 0x32548, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot setTask:]', symObjAddr: 0x204, symBinAddr: 0xE030, symSize: 0x8 }
+  - { offsetInCU: 0x5A2, offset: 0x32587, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot metadata]', symObjAddr: 0x20C, symBinAddr: 0xE038, symSize: 0x8 }
+  - { offsetInCU: 0x5D7, offset: 0x325BC, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot setMetadata:]', symObjAddr: 0x214, symBinAddr: 0xE040, symSize: 0x8 }
+  - { offsetInCU: 0x616, offset: 0x325FB, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot reference]', symObjAddr: 0x21C, symBinAddr: 0xE048, symSize: 0x8 }
+  - { offsetInCU: 0x64B, offset: 0x32630, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot setReference:]', symObjAddr: 0x224, symBinAddr: 0xE050, symSize: 0x8 }
+  - { offsetInCU: 0x68A, offset: 0x3266F, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot progress]', symObjAddr: 0x22C, symBinAddr: 0xE058, symSize: 0x8 }
+  - { offsetInCU: 0x6BF, offset: 0x326A4, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot setProgress:]', symObjAddr: 0x234, symBinAddr: 0xE060, symSize: 0xC }
+  - { offsetInCU: 0x6FE, offset: 0x326E3, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot error]', symObjAddr: 0x240, symBinAddr: 0xE06C, symSize: 0x8 }
+  - { offsetInCU: 0x733, offset: 0x32718, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot setError:]', symObjAddr: 0x248, symBinAddr: 0xE074, symSize: 0x8 }
+  - { offsetInCU: 0x772, offset: 0x32757, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot status]', symObjAddr: 0x250, symBinAddr: 0xE07C, symSize: 0x8 }
+  - { offsetInCU: 0x7A7, offset: 0x3278C, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageTaskSnapshot .cxx_destruct]', symObjAddr: 0x258, symBinAddr: 0xE084, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x3282E, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer initWithGoogleAppID:fetcherService:authProvider:appCheck:]', symObjAddr: 0x0, symBinAddr: 0xE0D8, symSize: 0xF4 }
+  - { offsetInCU: 0x117, offset: 0x3291E, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer initWithGoogleAppID:fetcherService:authProvider:appCheck:]', symObjAddr: 0x0, symBinAddr: 0xE0D8, symSize: 0xF4 }
+  - { offsetInCU: 0x1B3, offset: 0x329BA, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer authorizeRequest:delegate:didFinishSelector:]', symObjAddr: 0xF4, symBinAddr: 0xE1CC, symSize: 0x320 }
+  - { offsetInCU: 0x34A, offset: 0x32B51, size: 0x8, addend: 0x0, symName: '___73-[FIRStorageTokenAuthorizer authorizeRequest:delegate:didFinishSelector:]_block_invoke', symObjAddr: 0x414, symBinAddr: 0xE4EC, symSize: 0x1A8 }
+  - { offsetInCU: 0x426, offset: 0x32C2D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x5BC, symBinAddr: 0xE694, symSize: 0x30 }
+  - { offsetInCU: 0x44F, offset: 0x32C56, size: 0x8, addend: 0x0, symName: '___73-[FIRStorageTokenAuthorizer authorizeRequest:delegate:didFinishSelector:]_block_invoke.14', symObjAddr: 0x61C, symBinAddr: 0xE6C4, symSize: 0xE4 }
+  - { offsetInCU: 0x4F4, offset: 0x32CFB, size: 0x8, addend: 0x0, symName: '___73-[FIRStorageTokenAuthorizer authorizeRequest:delegate:didFinishSelector:]_block_invoke.18', symObjAddr: 0x750, symBinAddr: 0xE7A8, symSize: 0x8 }
+  - { offsetInCU: 0x52E, offset: 0x32D35, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer stopAuthorization]', symObjAddr: 0x768, symBinAddr: 0xE7B0, symSize: 0x4 }
+  - { offsetInCU: 0x55A, offset: 0x32D61, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer stopAuthorizationForRequest:]', symObjAddr: 0x76C, symBinAddr: 0xE7B4, symSize: 0x4 }
+  - { offsetInCU: 0x591, offset: 0x32D98, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer isAuthorizingRequest:]', symObjAddr: 0x770, symBinAddr: 0xE7B8, symSize: 0x8 }
+  - { offsetInCU: 0x5CD, offset: 0x32DD4, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer isAuthorizedRequest:]', symObjAddr: 0x778, symBinAddr: 0xE7C0, symSize: 0x6C }
+  - { offsetInCU: 0x628, offset: 0x32E2F, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer userEmail]', symObjAddr: 0x7E4, symBinAddr: 0xE82C, symSize: 0x8 }
+  - { offsetInCU: 0x659, offset: 0x32E60, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer fetcherService]', symObjAddr: 0x7EC, symBinAddr: 0xE834, symSize: 0x18 }
+  - { offsetInCU: 0x68E, offset: 0x32E95, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer setFetcherService:]', symObjAddr: 0x804, symBinAddr: 0xE84C, symSize: 0xC }
+  - { offsetInCU: 0x6CD, offset: 0x32ED4, size: 0x8, addend: 0x0, symName: '-[FIRStorageTokenAuthorizer .cxx_destruct]', symObjAddr: 0x810, symBinAddr: 0xE858, symSize: 0x44 }
+  - { offsetInCU: 0x27, offset: 0x33115, size: 0x8, addend: 0x0, symName: '-[FIRStorageUpdateMetadataTask initWithReference:fetcherService:dispatchQueue:metadata:completion:]', symObjAddr: 0x0, symBinAddr: 0xE89C, symSize: 0xE0 }
+  - { offsetInCU: 0x55B, offset: 0x33649, size: 0x8, addend: 0x0, symName: '-[FIRStorageUpdateMetadataTask initWithReference:fetcherService:dispatchQueue:metadata:completion:]', symObjAddr: 0x0, symBinAddr: 0xE89C, symSize: 0xE0 }
+  - { offsetInCU: 0x5DA, offset: 0x336C8, size: 0x8, addend: 0x0, symName: '-[FIRStorageUpdateMetadataTask dealloc]', symObjAddr: 0xE0, symBinAddr: 0xE97C, symSize: 0x50 }
+  - { offsetInCU: 0x60B, offset: 0x336F9, size: 0x8, addend: 0x0, symName: '-[FIRStorageUpdateMetadataTask enqueue]', symObjAddr: 0x130, symBinAddr: 0xE9CC, symSize: 0xAC }
+  - { offsetInCU: 0x64B, offset: 0x33739, size: 0x8, addend: 0x0, symName: '___39-[FIRStorageUpdateMetadataTask enqueue]_block_invoke', symObjAddr: 0x1DC, symBinAddr: 0xEA78, symSize: 0x2E4 }
+  - { offsetInCU: 0x718, offset: 0x33806, size: 0x8, addend: 0x0, symName: '___39-[FIRStorageUpdateMetadataTask enqueue]_block_invoke_2', symObjAddr: 0x4C0, symBinAddr: 0xED5C, symSize: 0x18C }
+  - { offsetInCU: 0x7D5, offset: 0x338C3, size: 0x8, addend: 0x0, symName: '___39-[FIRStorageUpdateMetadataTask enqueue]_block_invoke.18', symObjAddr: 0x6A8, symBinAddr: 0xEEE8, symSize: 0xA4 }
+  - { offsetInCU: 0x861, offset: 0x3394F, size: 0x8, addend: 0x0, symName: '-[FIRStorageUpdateMetadataTask fetcher]', symObjAddr: 0x7B8, symBinAddr: 0xEF8C, symSize: 0x10 }
+  - { offsetInCU: 0x898, offset: 0x33986, size: 0x8, addend: 0x0, symName: '-[FIRStorageUpdateMetadataTask setFetcher:]', symObjAddr: 0x7C8, symBinAddr: 0xEF9C, symSize: 0xC }
+  - { offsetInCU: 0x8D7, offset: 0x339C5, size: 0x8, addend: 0x0, symName: '-[FIRStorageUpdateMetadataTask fetcherCompletion]', symObjAddr: 0x7D4, symBinAddr: 0xEFA8, symSize: 0x10 }
+  - { offsetInCU: 0x90E, offset: 0x339FC, size: 0x8, addend: 0x0, symName: '-[FIRStorageUpdateMetadataTask .cxx_destruct]', symObjAddr: 0x7E4, symBinAddr: 0xEFB8, symSize: 0x68 }
+  - { offsetInCU: 0x27, offset: 0x33C22, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask initWithReference:fetcherService:dispatchQueue:data:metadata:]', symObjAddr: 0x0, symBinAddr: 0xF020, symSize: 0x148 }
+  - { offsetInCU: 0x5DA, offset: 0x341D5, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask initWithReference:fetcherService:dispatchQueue:data:metadata:]', symObjAddr: 0x0, symBinAddr: 0xF020, symSize: 0x148 }
+  - { offsetInCU: 0x659, offset: 0x34254, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask initWithReference:fetcherService:dispatchQueue:file:metadata:]', symObjAddr: 0x148, symBinAddr: 0xF168, symSize: 0x188 }
+  - { offsetInCU: 0x6F5, offset: 0x342F0, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask dealloc]', symObjAddr: 0x2D0, symBinAddr: 0xF2F0, symSize: 0x50 }
+  - { offsetInCU: 0x726, offset: 0x34321, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask enqueue]', symObjAddr: 0x320, symBinAddr: 0xF340, symSize: 0xAC }
+  - { offsetInCU: 0x766, offset: 0x34361, size: 0x8, addend: 0x0, symName: '___35-[FIRIMPLStorageUploadTask enqueue]_block_invoke', symObjAddr: 0x3CC, symBinAddr: 0xF3EC, symSize: 0x620 }
+  - { offsetInCU: 0x833, offset: 0x3442E, size: 0x8, addend: 0x0, symName: '___35-[FIRIMPLStorageUploadTask enqueue]_block_invoke_2', symObjAddr: 0x9EC, symBinAddr: 0xFA0C, symSize: 0x14C }
+  - { offsetInCU: 0x8AA, offset: 0x344A5, size: 0x8, addend: 0x0, symName: '___35-[FIRIMPLStorageUploadTask enqueue]_block_invoke.32', symObjAddr: 0xB90, symBinAddr: 0xFB58, symSize: 0x1E8 }
+  - { offsetInCU: 0x941, offset: 0x3453C, size: 0x8, addend: 0x0, symName: '___35-[FIRIMPLStorageUploadTask enqueue]_block_invoke.36', symObjAddr: 0xD88, symBinAddr: 0xFD40, symSize: 0xA4 }
+  - { offsetInCU: 0x9CD, offset: 0x345C8, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask finishTaskWithStatus:snapshot:]', symObjAddr: 0xE40, symBinAddr: 0xFDE4, symSize: 0x68 }
+  - { offsetInCU: 0xA18, offset: 0x34613, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask isContentToUploadValid:]', symObjAddr: 0xEA8, symBinAddr: 0xFE4C, symSize: 0x17C }
+  - { offsetInCU: 0xA88, offset: 0x34683, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask cancel]', symObjAddr: 0x1024, symBinAddr: 0xFFC8, symSize: 0xA8 }
+  - { offsetInCU: 0xAC8, offset: 0x346C3, size: 0x8, addend: 0x0, symName: '___34-[FIRIMPLStorageUploadTask cancel]_block_invoke', symObjAddr: 0x10CC, symBinAddr: 0x10070, symSize: 0x164 }
+  - { offsetInCU: 0xB01, offset: 0x346FC, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask pause]', symObjAddr: 0x1230, symBinAddr: 0x101D4, symSize: 0xA8 }
+  - { offsetInCU: 0xB41, offset: 0x3473C, size: 0x8, addend: 0x0, symName: '___33-[FIRIMPLStorageUploadTask pause]_block_invoke', symObjAddr: 0x12D8, symBinAddr: 0x1027C, symSize: 0x124 }
+  - { offsetInCU: 0xB7A, offset: 0x34775, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask resume]', symObjAddr: 0x13FC, symBinAddr: 0x103A0, symSize: 0xA8 }
+  - { offsetInCU: 0xBBC, offset: 0x347B7, size: 0x8, addend: 0x0, symName: '___34-[FIRIMPLStorageUploadTask resume]_block_invoke', symObjAddr: 0x14A4, symBinAddr: 0x10448, symSize: 0x140 }
+  - { offsetInCU: 0xBF9, offset: 0x347F4, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask fileURLisFile:]', symObjAddr: 0x15E4, symBinAddr: 0x10588, symSize: 0xA0 }
+  - { offsetInCU: 0xC4B, offset: 0x34846, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask progress]', symObjAddr: 0x1684, symBinAddr: 0x10628, symSize: 0x10 }
+  - { offsetInCU: 0xC80, offset: 0x3487B, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask setProgress:]', symObjAddr: 0x1694, symBinAddr: 0x10638, symSize: 0x14 }
+  - { offsetInCU: 0xCBF, offset: 0x348BA, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask fetcherCompletion]', symObjAddr: 0x16A8, symBinAddr: 0x1064C, symSize: 0x10 }
+  - { offsetInCU: 0xCF6, offset: 0x348F1, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask uploadData]', symObjAddr: 0x16B8, symBinAddr: 0x1065C, symSize: 0x10 }
+  - { offsetInCU: 0xD2B, offset: 0x34926, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask fileURL]', symObjAddr: 0x16C8, symBinAddr: 0x1066C, symSize: 0x10 }
+  - { offsetInCU: 0xD60, offset: 0x3495B, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask uploadMetadata]', symObjAddr: 0x16D8, symBinAddr: 0x1067C, symSize: 0x10 }
+  - { offsetInCU: 0xD95, offset: 0x34990, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask uploadFetcher]', symObjAddr: 0x16E8, symBinAddr: 0x1068C, symSize: 0x10 }
+  - { offsetInCU: 0xDCC, offset: 0x349C7, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask setUploadFetcher:]', symObjAddr: 0x16F8, symBinAddr: 0x1069C, symSize: 0xC }
+  - { offsetInCU: 0xE0B, offset: 0x34A06, size: 0x8, addend: 0x0, symName: '-[FIRIMPLStorageUploadTask .cxx_destruct]', symObjAddr: 0x1704, symBinAddr: 0x106A8, symSize: 0x90 }
+  - { offsetInCU: 0x27, offset: 0x34DC8, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils GCSEscapedString:]', symObjAddr: 0x0, symBinAddr: 0x10738, symSize: 0x7C }
+  - { offsetInCU: 0x40, offset: 0x34DE1, size: 0x8, addend: 0x0, symName: _kGCSObjectAllowedCharacterSet, symObjAddr: 0xD30, symBinAddr: 0x1C820, symSize: 0x0 }
+  - { offsetInCU: 0xB3, offset: 0x34E54, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils GCSEscapedString:]', symObjAddr: 0x0, symBinAddr: 0x10738, symSize: 0x7C }
+  - { offsetInCU: 0x101, offset: 0x34EA2, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils MIMETypeForExtension:]', symObjAddr: 0x7C, symBinAddr: 0x107B4, symSize: 0x94 }
+  - { offsetInCU: 0x201, offset: 0x34FA2, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils queryStringForDictionary:]', symObjAddr: 0x110, symBinAddr: 0x10848, symSize: 0x128 }
+  - { offsetInCU: 0x254, offset: 0x34FF5, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x238, symBinAddr: 0x10970, symSize: 0x10 }
+  - { offsetInCU: 0x279, offset: 0x3501A, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x248, symBinAddr: 0x10980, symSize: 0x8 }
+  - { offsetInCU: 0x298, offset: 0x35039, size: 0x8, addend: 0x0, symName: '___44+[FIRStorageUtils queryStringForDictionary:]_block_invoke', symObjAddr: 0x250, symBinAddr: 0x10988, symSize: 0x90 }
+  - { offsetInCU: 0x317, offset: 0x350B8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x2E0, symBinAddr: 0x10A18, symSize: 0x10 }
+  - { offsetInCU: 0x340, offset: 0x350E1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x2F0, symBinAddr: 0x10A28, symSize: 0xC }
+  - { offsetInCU: 0x35F, offset: 0x35100, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils defaultRequestForReference:]', symObjAddr: 0x2FC, symBinAddr: 0x10A34, symSize: 0x1A0 }
+  - { offsetInCU: 0x3CF, offset: 0x35170, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils defaultRequestForReference:queryParams:]', symObjAddr: 0x49C, symBinAddr: 0x10BD4, symSize: 0x35C }
+  - { offsetInCU: 0x47A, offset: 0x3521B, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils encodedURLForPath:]', symObjAddr: 0x7F8, symBinAddr: 0x10F30, symSize: 0x1DC }
+  - { offsetInCU: 0x512, offset: 0x352B3, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils storageErrorWithDescription:code:]', symObjAddr: 0x9D4, symBinAddr: 0x1110C, symSize: 0xEC }
+  - { offsetInCU: 0x560, offset: 0x35301, size: 0x8, addend: 0x0, symName: '+[FIRStorageUtils computeRetryIntervalFromRetryTime:]', symObjAddr: 0xAC0, symBinAddr: 0x111F8, symSize: 0x2C }
+  - { offsetInCU: 0x5C0, offset: 0x35361, size: 0x8, addend: 0x0, symName: '+[NSDictionary(FIRStorageNSDictionaryJSONHelpers) frs_dictionaryFromJSONData:]', symObjAddr: 0xAEC, symBinAddr: 0x11224, symSize: 0x38 }
+  - { offsetInCU: 0x5FF, offset: 0x353A0, size: 0x8, addend: 0x0, symName: '+[NSData(FIRStorageNSDataJSONHelpers) frs_dataFromJSONDictionary:]', symObjAddr: 0xB24, symBinAddr: 0x1125C, symSize: 0x38 }
+...

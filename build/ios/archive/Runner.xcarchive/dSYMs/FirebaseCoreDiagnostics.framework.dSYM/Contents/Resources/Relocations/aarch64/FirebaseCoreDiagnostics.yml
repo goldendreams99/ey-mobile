@@ -1,0 +1,40 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fulldev/Library/Developer/Xcode/DerivedData/Runner-bbynqzeazonrbmezehexwjqykqzb/Build/Intermediates.noindex/ArchiveIntermediates/production/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/FirebaseCoreDiagnostics.framework/FirebaseCoreDiagnostics'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x72006, size: 0x8, addend: 0x0, symName: _FirebaseCoreDiagnosticsVersionString, symObjAddr: 0x0, symBinAddr: 0x9D80, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x7203B, size: 0x8, addend: 0x0, symName: _FirebaseCoreDiagnosticsVersionNumber, symObjAddr: 0x38, symBinAddr: 0x9DB8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x72078, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnosticsLog initWithConfig:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x84 }
+  - { offsetInCU: 0x4B, offset: 0x7209C, size: 0x8, addend: 0x0, symName: _kFIRCoreDiagnosticsHeartbeatDateFileName, symObjAddr: 0x2128, symBinAddr: 0xC0E0, symSize: 0x0 }
+  - { offsetInCU: 0x63, offset: 0x720B4, size: 0x8, addend: 0x0, symName: '+[FIRCoreDiagnostics sharedInstance]', symObjAddr: 0x254, symBinAddr: 0x8254, symSize: 0x40 }
+  - { offsetInCU: 0x8D, offset: 0x720DE, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xB0C0, symBinAddr: 0x109A0, symSize: 0x0 }
+  - { offsetInCU: 0xA3, offset: 0x720F4, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xB0C8, symBinAddr: 0x109A8, symSize: 0x0 }
+  - { offsetInCU: 0x154, offset: 0x721A5, size: 0x8, addend: 0x0, symName: _FIRMapFromServiceStringToTypeEnum, symObjAddr: 0x4C4, symBinAddr: 0x84C4, symSize: 0x22C }
+  - { offsetInCU: 0x17A, offset: 0x721CB, size: 0x8, addend: 0x0, symName: _FIRMapFromServiceStringToTypeEnum.serviceStringToTypeEnum, symObjAddr: 0xB0D0, symBinAddr: 0x109B0, symSize: 0x0 }
+  - { offsetInCU: 0x569, offset: 0x725BA, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnosticsLog initWithConfig:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x84 }
+  - { offsetInCU: 0x5B0, offset: 0x72601, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnosticsLog transportBytes]', symObjAddr: 0x84, symBinAddr: 0x8084, symSize: 0xF8 }
+  - { offsetInCU: 0x7DC, offset: 0x7282D, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnosticsLog dealloc]', symObjAddr: 0x17C, symBinAddr: 0x817C, symSize: 0x50 }
+  - { offsetInCU: 0x830, offset: 0x72881, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnosticsLog config]', symObjAddr: 0x1CC, symBinAddr: 0x81CC, symSize: 0x44 }
+  - { offsetInCU: 0x865, offset: 0x728B6, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnosticsLog setConfig:]', symObjAddr: 0x210, symBinAddr: 0x8210, symSize: 0x44 }
+  - { offsetInCU: 0x8E3, offset: 0x72934, size: 0x8, addend: 0x0, symName: '___36+[FIRCoreDiagnostics sharedInstance]_block_invoke', symObjAddr: 0x294, symBinAddr: 0x8294, symSize: 0x2C }
+  - { offsetInCU: 0x90A, offset: 0x7295B, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics init]', symObjAddr: 0x2C0, symBinAddr: 0x82C0, symSize: 0x8C }
+  - { offsetInCU: 0x961, offset: 0x729B2, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics initWithTransport:heartbeatDateStorage:]', symObjAddr: 0x34C, symBinAddr: 0x834C, symSize: 0xC4 }
+  - { offsetInCU: 0x9EF, offset: 0x72A40, size: 0x8, addend: 0x0, symName: _FIREncodeString, symObjAddr: 0x410, symBinAddr: 0x8410, symSize: 0x40 }
+  - { offsetInCU: 0xA38, offset: 0x72A89, size: 0x8, addend: 0x0, symName: _FIREncodeData, symObjAddr: 0x450, symBinAddr: 0x8450, symSize: 0x74 }
+  - { offsetInCU: 0xA73, offset: 0x72AC4, size: 0x8, addend: 0x0, symName: _FIRPopulateProtoWithInfoFromUserInfoParams, symObjAddr: 0x6F0, symBinAddr: 0x86F0, symSize: 0x100 }
+  - { offsetInCU: 0xB0C, offset: 0x72B5D, size: 0x8, addend: 0x0, symName: _FIRPopulateProtoWithCommonInfoFromApp, symObjAddr: 0x7F0, symBinAddr: 0x87F0, symSize: 0x27C }
+  - { offsetInCU: 0xC5E, offset: 0x72CAF, size: 0x8, addend: 0x0, symName: _FIRPopulateProtoWithInstalledServices, symObjAddr: 0xA6C, symBinAddr: 0x8A6C, symSize: 0x5A0 }
+  - { offsetInCU: 0xEEE, offset: 0x72F3F, size: 0x8, addend: 0x0, symName: _FIRPopulateProtoWithInfoPlistValues, symObjAddr: 0x100C, symBinAddr: 0x900C, symSize: 0x1B8 }
+  - { offsetInCU: 0xFBA, offset: 0x7300B, size: 0x8, addend: 0x0, symName: '+[FIRCoreDiagnostics sendDiagnosticsData:]', symObjAddr: 0x11C4, symBinAddr: 0x91C4, symSize: 0x54 }
+  - { offsetInCU: 0x100C, offset: 0x7305D, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics sendDiagnosticsData:]', symObjAddr: 0x1218, symBinAddr: 0x9218, symSize: 0xAC }
+  - { offsetInCU: 0x1081, offset: 0x730D2, size: 0x8, addend: 0x0, symName: '___42-[FIRCoreDiagnostics sendDiagnosticsData:]_block_invoke', symObjAddr: 0x12C4, symBinAddr: 0x92C4, symSize: 0x194 }
+  - { offsetInCU: 0x11A2, offset: 0x731F3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1458, symBinAddr: 0x9458, symSize: 0x28 }
+  - { offsetInCU: 0x11CB, offset: 0x7321C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1480, symBinAddr: 0x9480, symSize: 0x28 }
+  - { offsetInCU: 0x11EA, offset: 0x7323B, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics setHeartbeatFlagIfNeededToConfig:]', symObjAddr: 0x14A8, symBinAddr: 0x94A8, symSize: 0xD8 }
+  - { offsetInCU: 0x1251, offset: 0x732A2, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics isDate:inSameDayOrBeforeThan:]', symObjAddr: 0x1580, symBinAddr: 0x9580, symSize: 0x9C }
+  - { offsetInCU: 0x12A7, offset: 0x732F8, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics diagnosticsQueue]', symObjAddr: 0x161C, symBinAddr: 0x961C, symSize: 0x8 }
+  - { offsetInCU: 0x12DE, offset: 0x7332F, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics transport]', symObjAddr: 0x1624, symBinAddr: 0x9624, symSize: 0x8 }
+  - { offsetInCU: 0x1315, offset: 0x73366, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics heartbeatDateStorage]', symObjAddr: 0x162C, symBinAddr: 0x962C, symSize: 0x8 }
+  - { offsetInCU: 0x134C, offset: 0x7339D, size: 0x8, addend: 0x0, symName: '-[FIRCoreDiagnostics .cxx_destruct]', symObjAddr: 0x1634, symBinAddr: 0x9634, symSize: 0x3C }
+  - { offsetInCU: 0x34, offset: 0x7357E, size: 0x8, addend: 0x0, symName: _logs_proto_mobilesdk_ios_ICoreConfiguration_fields, symObjAddr: 0x0, symBinAddr: 0x9DC8, symSize: 0x0 }
+...
